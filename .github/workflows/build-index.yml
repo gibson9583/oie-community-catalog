@@ -37,5 +37,6 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add index.json
             git commit -m "chore: rebuild index.json"
-            git push
+            # Two merges landing close together can race this push; rebase and retry once.
+            git push || (git pull --rebase && node scripts/build-index.mjs && git add index.json && git commit --amend --no-edit && git push)
           fi

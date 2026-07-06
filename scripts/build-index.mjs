@@ -5,8 +5,10 @@
  * Validates every package manifest under manifests/ and compiles them into the
  * single index.json the Community Store consumes (one conditional GET per sync).
  *
- *   node scripts/build-index.mjs             build index.json
- *   node scripts/build-index.mjs --check     validate + fail if index.json is stale (CI on PRs)
+ *   node scripts/build-index.mjs             build index.json (run by CI on merge to main)
+ *   node scripts/build-index.mjs --lint      validate manifests only (CI on PRs — the compiled
+ *                                            index is CI-owned; submitters never commit it)
+ *   node scripts/build-index.mjs --check     validate + fail if index.json is stale (maintainers)
  *   node scripts/build-index.mjs --verify f… additionally download the installer(s) declared in
  *                                            the given version-manifest file(s) and verify sha256
  *
@@ -170,6 +172,7 @@ async function verifyDigests(files) {
 
 const args = process.argv.slice(2);
 const check = args.includes('--check');
+const lint = args.includes('--lint');
 const verifyIdx = args.indexOf('--verify');
 
 const packages = loadPackages();
@@ -188,7 +191,11 @@ if (errors.length) {
 const out = JSON.stringify(index, null, 2) + '\n';
 const indexPath = join(ROOT, 'index.json');
 
-if (check) {
+if (lint) {
+    // PR mode: manifests must be valid (and digests, when --verify ran), but the
+    // compiled index is CI-owned — submitters never touch index.json.
+    console.log(`ok — ${packages.length} package(s) valid.`);
+} else if (check) {
     const strip = (s) => s.replace(/"generatedAt": "[^"]*"/, '"generatedAt": ""');
     const current = existsSync(indexPath) ? readFileSync(indexPath, 'utf8') : '';
     if (strip(current) !== strip(out)) {

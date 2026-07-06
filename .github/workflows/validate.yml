@@ -1,6 +1,7 @@
-# PR gate for catalog submissions: every manifest must validate, index.json must be
-# up to date, and any version manifest added or changed in the PR has its installer
-# downloaded and sha256-verified — the winget-pkgs model.
+# PR gate for catalog submissions: every manifest must validate, and any version
+# manifest added or changed in the PR has its installer downloaded and
+# sha256-verified — the winget-pkgs model. Submitters only touch manifests;
+# index.json is compiled and committed by CI after merge (build-index.yml).
 
 name: Validate
 
@@ -20,8 +21,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Validate manifests and index freshness
-        run: node scripts/build-index.mjs --check
+      - name: Validate manifests
+        run: node scripts/build-index.mjs --lint
 
       - name: Verify digests of changed version manifests
         if: github.event_name == 'pull_request'
@@ -31,5 +32,5 @@ jobs:
             echo "No version manifests changed — skipping digest verification."
           else
             echo "$CHANGED"
-            node scripts/build-index.mjs --check --verify $CHANGED
+            node scripts/build-index.mjs --lint --verify $CHANGED
           fi

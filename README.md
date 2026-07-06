@@ -52,10 +52,11 @@ the store detects that they are installed.
      `maxEngineVersion` (or `null`), `installerUrl`, `sha256`, `restartRequired`,
      and optionally `publishedAt`, `releaseNotesUrl`, and `docsUrl` (an absolute URL
      to a markdown page rendered in the store's detail view).
-3. Rebuild the index and commit it along with your manifests:
-   `node scripts/build-index.mjs`
-4. Open a pull request. CI validates every manifest, confirms `index.json` is current,
-   and **downloads your installer to verify the sha256** before the PR can merge.
+3. Open a pull request. CI validates every manifest and **downloads your installer to
+   verify the sha256** before the PR can merge. You never touch `index.json` — CI
+   recompiles and commits it automatically when your PR merges, and every connected
+   store picks it up on its next sync. (Optional: run
+   `node scripts/build-index.mjs --lint` locally for fast feedback before pushing.)
 
 Publishing a new version is the same flow: add `<new-version>.json`, rebuild, PR.
 Version manifests are immutable — never edit a published one; publish a new version
