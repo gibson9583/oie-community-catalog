@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/Example%20-%20Get%20Num%20Pages%20From%20Embedded%20PDF.xml",
+    "sha256": "54c2f1858b37570436de2862b39c0911c205d98ec4189e662afda02c0c0074eb",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/README.md"
+}

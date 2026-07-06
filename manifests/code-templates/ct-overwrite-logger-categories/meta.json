@@ -1,0 +1,20 @@
+{
+    "id": "ct-overwrite-logger-categories",
+    "name": "Overwrite Logger Categories",
+    "description": "Example code template: Overwrite Logger Categories.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Overwrite%20Logger%20Categories/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "a9e61c41-5b0c-47da-82c9-0601ad5a3baa"
+}

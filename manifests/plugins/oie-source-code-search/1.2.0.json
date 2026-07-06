@@ -1,0 +1,11 @@
+{
+    "version": "1.2.0",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/oie-source-code-search/releases/download/v1.2.0/oie-source-code-search-1.2.0.zip",
+    "sha256": "9b5e6ff7cdc10d4f0c055743c7f49d5aea98673a46a9ab448e45324984bafacd",
+    "restartRequired": true,
+    "publishedAt": "2026-07-06T17:12:24Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-source-code-search/releases/tag/v1.2.0",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-source-code-search/v1.2.0/docs/store.md"
+}

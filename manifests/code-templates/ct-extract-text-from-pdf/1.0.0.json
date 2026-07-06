@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Extract%20Text%20From%20PDF/Extract%20Text%20From%20PDF.xml",
+    "sha256": "c0ef4c95728edb8f7eda9b93c4abf96c3015b017fa0af64cf7cc9c2f55863727",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Extract%20Text%20From%20PDF/README.md"
+}

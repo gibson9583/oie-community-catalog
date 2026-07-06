@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-06T22:56:23.723Z",
+  "packages": [
+    {
+      "id": "example-get-num-pages-from-embedded-pdf",
+      "name": "Get Num Pages From Embedded PDF",
+      "description": "Example channel: Get Num Pages From Embedded PDF.",
+      "type": "channel",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "channel"
+      ],
+      "deprecated": false,
+      "contentId": "6de4dab6-cbb8-4840-87bb-31a85fab9101",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/Example%20-%20Get%20Num%20Pages%20From%20Embedded%20PDF.xml",
+          "sha256": "54c2f1858b37570436de2862b39c0911c205d98ec4189e662afda02c0c0074eb",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/README.md"
+        }
+      ]
+    },
+    {
+      "id": "example-validate-xsd-source-filter",
+      "name": "Validate XSD Source Filter",
+      "description": "Example channel: Validate XSD Source Filter.",
+      "type": "channel",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Channels/Validate%20XSD%20Source%20Filter/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "channel"
+      ],
+      "deprecated": false,
+      "contentId": "9c5f43ca-544c-4a40-80f6-455868c7e3f4",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Validate%20XSD%20Source%20Filter/Example%20-%20Validate%20XSD.xml",
+          "sha256": "90e7145e438103e683fedd1978e110b9bd42b06dc7060b6a14478e7a197c5712",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Validate%20XSD%20Source%20Filter/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ctl-route-with-sources",
+      "name": "Route with Sources",
+      "description": "Example code template library: Route with Sources.",
+      "type": "code-template-library",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Route%20with%20Sources/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template library"
+      ],
+      "deprecated": false,
+      "contentId": "ca9c7efd-2329-4248-bb9a-0271554baeaf",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Route%20with%20Sources/Route%20With%20Sources%20-%20Code%20Template%20Library.xml",
+          "sha256": "86b435b9727a76bf46599d0cda3893fddd14cfb3ce4c681f0d7374f129ccf63d",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Route%20with%20Sources/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-convert-date-from-multiple-formats",
+      "name": "Convert Date From Multiple Formats",
+      "description": "Example code template: Convert Date From Multiple Formats.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "e31ef05e-7cd5-43d2-a2db-b264ed98c003",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/Convert%20Date%20From%20Multiple%20Formats.xml",
+          "sha256": "c82bbd14dca17690e4c4db135279a84a2e4768fb3d08712c03f6737cf003f208",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-convert-xml-to-hl7",
+      "name": "Convert XML to HL7",
+      "description": "Example code template: Convert XML to HL7.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Convert%20XML%20to%20HL7/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "64b8b653-162b-454e-a790-21d659934bc8",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20XML%20to%20HL7/Convert%20XML%20to%20HL7.xml",
+          "sha256": "c5a77522202b7e088764ae3f934ad068bdeb53e896d8a85abac67c982ef5b13d",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20XML%20to%20HL7/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-create-and-insert-segment-templates",
+      "name": "Create and Insert Segment Templates",
+      "description": "Example code template: Create and Insert Segment Templates.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "41f83fb6-69a4-434d-8e11-d687577f387e",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/Create%20Segment%20Before%20Segment.xml",
+          "sha256": "c0495013924e9ac6a8137154da2904e7d0a396acc36302c31058676e17053c3c",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-encrypt-pdf",
+      "name": "Encrypt PDF",
+      "description": "Example code template: Encrypt PDF.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Encrypt%20PDF/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "942f9161-6998-42e1-9528-83342f457ac5",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Encrypt%20PDF/Encrypt%20PDF.xml",
+          "sha256": "d9b0de27efa71819475daaa8a54a9f0f574e6b807f727a67e2f6070b005116d8",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Encrypt%20PDF/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-execute-runtime-command",
+      "name": "Execute Runtime Command",
+      "description": "Example code template: Execute Runtime Command.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Execute%20Runtime%20Command/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "28e29e59-d093-41cf-8c2d-4ad4587f9e20",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Execute%20Runtime%20Command/Execute%20Runtime%20Command.xml",
+          "sha256": "2e15d31a0f0aa7ed36e1a04a161181f77538d2e19753d4ea0ded8f79e04319e8",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Execute%20Runtime%20Command/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-extract-text-from-pdf",
+      "name": "Extract Text From PDF",
+      "description": "Example code template: Extract Text From PDF.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Extract%20Text%20From%20PDF/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "dcd2ce64-4c3c-4e53-9f71-dbf296004fe3",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Extract%20Text%20From%20PDF/Extract%20Text%20From%20PDF.xml",
+          "sha256": "c0ef4c95728edb8f7eda9b93c4abf96c3015b017fa0af64cf7cc9c2f55863727",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Extract%20Text%20From%20PDF/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-fix-hl7-node-order",
+      "name": "Fix HL7 Node Order",
+      "description": "Example code template: Fix HL7 Node Order.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Fix%20HL7%20Node%20Order/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "23adc50e-ab2b-4c9f-ab4b-6b17dc31bab7",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Fix%20HL7%20Node%20Order/Fix%20Node%20Order%20in%20HL7%20v2.x%20Message.xml",
+          "sha256": "f041a8594f9fb7432f4bd03bdaaa6b54efeea8a3ccede19e47a35f420255121f",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Fix%20HL7%20Node%20Order/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-get-num-pages-in-pdf",
+      "name": "Get Num Pages In PDF",
+      "description": "Example code template: Get Num Pages In PDF.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "7294645e-df37-4536-b2ad-a0d08f4e98be",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/Get%20Num%20Pages%20In%20PDF.xml",
+          "sha256": "407c5a7e1455331197712fe8420ca895604bfda1874dd4bc9c98c8ee7fcdcc3a",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-get-segments-after-a-particular-segment",
+      "name": "Get Segments After a Particular Segment",
+      "description": "Example code template: Get Segments After a Particular Segment.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "270003aa-9350-45a7-9397-58679320cb9d",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/Get%20Segments%20After%20a%20Particular%20Segment.xml",
+          "sha256": "f8346fc23fb7152c8e51ff57a866ca436e6396b593b13feedb7f5643ccf26ce0",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-join-hl7-subcomponents",
+      "name": "Join HL7 Subcomponents",
+      "description": "Example code template: Join HL7 Subcomponents.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Join%20HL7%20Subcomponents/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "aab23d47-cae1-4a03-9317-27246e5cf808",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Join%20HL7%20Subcomponents/Join%20HL7%20Subcomponents%20%28code%20template%29.xml",
+          "sha256": "d57e00220399c98e1182e0ea96a363060a4ed5ac3afd4076d1ff5fabc1d215c0",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Join%20HL7%20Subcomponents/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-overwrite-logger-categories",
+      "name": "Overwrite Logger Categories",
+      "description": "Example code template: Overwrite Logger Categories.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Overwrite%20Logger%20Categories/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "a9e61c41-5b0c-47da-82c9-0601ad5a3baa",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Overwrite%20Logger%20Categories/Overwrite%20Logger%20Categories.xml",
+          "sha256": "734fbbb64cf7f501e9802e25bb31157f431db03d0c6aaeb1e307872221404ad2",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Overwrite%20Logger%20Categories/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-rename-hl7-field",
+      "name": "Rename HL7 Field",
+      "description": "Example code template: Rename HL7 Field.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Rename%20HL7%20Field/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "80cbe9dc-bbb9-4379-a124-21ce86b3e3ea",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Rename%20HL7%20Field/Rename%20HL7%20Field.xml",
+          "sha256": "016202e6e897029b43a847dcfcbc1e11e6afb70926ffd74a2a6ae272f85ecacf",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Rename%20HL7%20Field/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-replace-in-all-descendant-xml-nodes",
+      "name": "Replace in All Descendant XML Nodes",
+      "description": "Example code template: Replace in All Descendant XML Nodes.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "c4ef99be-6845-4167-8a07-1e6c40b52bb3",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/Replace%20in%20All%20Descendant%20XML%20Nodes.xml",
+          "sha256": "2b4d63552764f6e842d1d36e7226d1bae20333765cbbf6285b753abcda326f6b",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-strip-empty-nodes-from-xml",
+      "name": "Strip Empty Nodes from XML",
+      "description": "Example code template: Strip Empty Nodes from XML.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "ffa5fa9b-e13e-48b1-96d5-b4f7ac08d497",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/Strip%20Empty%20Nodes%20from%20XML.xml",
+          "sha256": "983ea18f6dfb00ebfdf6a9e40bdc91d9dd9e9b84890325385e4641842bd1f421",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-thread-safe-get-or-create-from-globalmap",
+      "name": "Thread-safe get or create from globalMap",
+      "description": "Example code template: Thread-safe get or create from globalMap.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "d9c5b969-56ad-4a2f-bcec-e6708deea959",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/Thread-safe%20get%20or%20create%20from%20globalMap.xml",
+          "sha256": "9e633a024a70188e734c04689157a57c51e1b8364e89fb4c09b776b51392761a",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-unescape-xdd-hl7-sequences",
+      "name": "Unescape Xdd HL7 Sequences",
+      "description": "Example code template: Unescape Xdd HL7 Sequences.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "NextGen Healthcare"
+      ],
+      "keywords": [
+        "example",
+        "code template"
+      ],
+      "deprecated": false,
+      "contentId": "9d3f1dd9-d28e-42e5-89bd-8a3569b33b69",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/Unescape%20Xdd%20HL7%20Sequences.xml",
+          "sha256": "d9d0a7b392a5c6a5186571039d186073a78d575cc4d00da8480ba5e4d81fb551",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/README.md"
+        }
+      ]
+    },
+    {
+      "id": "sqs-connector",
+      "name": "AWS SQS Connector",
+      "description": "Source (SQS Reader) and destination (SQS Sender) connectors for Amazon SQS queues.",
+      "type": "connector",
+      "publisher": "Chris Gibson",
+      "repository": "https://github.com/gibson9583/sqs-source-connector",
+      "homepage": "https://github.com/gibson9583/sqs-source-connector",
+      "documentation": "https://github.com/gibson9583/sqs-source-connector#readme",
+      "license": "MIT",
+      "authors": [
+        "Chris Gibson"
+      ],
+      "keywords": [
+        "aws",
+        "sqs",
+        "queue",
+        "source",
+        "destination",
+        "messaging"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "0.5.0",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/sqs-source-connector/releases/download/v0.5.0/sqs-connector-0.5.0.zip",
+          "sha256": "fdb64b0125c9769dd2cefda4cd06e1774480f6917bdf6d7d3b0a3dbe54fc524e",
+          "restartRequired": true,
+          "publishedAt": "2026-07-06T13:31:11Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/sqs-source-connector/releases/tag/v0.5.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/sqs-source-connector/v0.5.0/docs/store.md"
+        }
+      ]
+    },
+    {
+      "id": "communitystore",
+      "name": "Community Store",
+      "description": "Discover, install, and update community plugins from GitHub releases — verified by sha256 and installed through the engine's own extension installer.",
+      "type": "plugin",
+      "publisher": "Chris Gibson",
+      "repository": "https://github.com/gibson9583/oie-community-store",
+      "homepage": "https://github.com/gibson9583/oie-community-store",
+      "documentation": "https://github.com/gibson9583/oie-community-store#readme",
+      "license": "MPL-2.0",
+      "authors": [
+        "Chris Gibson"
+      ],
+      "keywords": [
+        "store",
+        "marketplace",
+        "plugins",
+        "extensions",
+        "updates"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "0.3.2",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-community-store/releases/download/v0.3.2/communitystore-0.3.2.zip",
+          "sha256": "14a3f9be00e087aa70b174aa6581db0efe839598f771bc703717d2610a823438",
+          "restartRequired": true,
+          "publishedAt": "2026-07-06T20:42:56Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.3.2",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.3.2/docs/store.md"
+        }
+      ]
+    },
+    {
+      "id": "oie-source-code-search",
+      "name": "Source Code Search",
+      "description": "Grep-like search across channel scripts, code templates, global scripts, message templates, and connector properties — from the Administrator UI.",
+      "type": "plugin",
+      "publisher": "Diridium Technologies Inc.",
+      "repository": "https://github.com/gibson9583/oie-source-code-search",
+      "homepage": "https://github.com/gibson9583/oie-source-code-search",
+      "documentation": "https://github.com/gibson9583/oie-source-code-search#readme",
+      "license": "MPL-2.0",
+      "authors": [
+        "Diridium Technologies Inc."
+      ],
+      "keywords": [
+        "search",
+        "grep",
+        "scripts",
+        "code-templates",
+        "developer",
+        "productivity"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "1.2.0",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-source-code-search/releases/download/v1.2.0/oie-source-code-search-1.2.0.zip",
+          "sha256": "9b5e6ff7cdc10d4f0c055743c7f49d5aea98673a46a9ab448e45324984bafacd",
+          "restartRequired": true,
+          "publishedAt": "2026-07-06T17:12:24Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-source-code-search/releases/tag/v1.2.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-source-code-search/v1.2.0/docs/store.md"
+        }
+      ]
+    },
+    {
+      "id": "tls-manager",
+      "name": "TLS Manager",
+      "description": "TLS-enabled networking connectors and a certificate management view for Open Integration Engine.",
+      "type": "plugin",
+      "publisher": "NovaMap Health",
+      "repository": "https://github.com/gibson9583/tls-manager-plugin",
+      "homepage": "https://github.com/gibson9583/tls-manager-plugin",
+      "documentation": "https://github.com/gibson9583/tls-manager-plugin#readme",
+      "license": "Apache-2.0 OR MPL-2.0",
+      "authors": [
+        "NovaMap Health"
+      ],
+      "keywords": [
+        "tls",
+        "ssl",
+        "certificate",
+        "mtls",
+        "security",
+        "connector"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "1.0.7",
+          "minEngineVersion": "4.5.2",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/tls-manager-plugin/releases/download/v1.0.7/tls-manager-1.0.7.zip",
+          "sha256": "a2fda39dac8b3157b658d2041bac337a8e2b13100ba681b46c114cd490eb3e7c",
+          "restartRequired": true,
+          "publishedAt": "2026-07-06T14:23:09Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/tls-manager-plugin/releases/tag/v1.0.7",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/tls-manager-plugin/v1.0.7/docs/store.md"
+        }
+      ]
+    }
+  ],
+  "blocklist": []
+}

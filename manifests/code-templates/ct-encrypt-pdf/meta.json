@@ -1,0 +1,20 @@
+{
+    "id": "ct-encrypt-pdf",
+    "name": "Encrypt PDF",
+    "description": "Example code template: Encrypt PDF.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Encrypt%20PDF/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "942f9161-6998-42e1-9528-83342f457ac5"
+}

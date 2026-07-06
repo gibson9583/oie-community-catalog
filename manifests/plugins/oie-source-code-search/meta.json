@@ -1,0 +1,23 @@
+{
+    "id": "oie-source-code-search",
+    "name": "Source Code Search",
+    "description": "Grep-like search across channel scripts, code templates, global scripts, message templates, and connector properties \u2014 from the Administrator UI.",
+    "type": "plugin",
+    "publisher": "Diridium Technologies Inc.",
+    "repository": "https://github.com/gibson9583/oie-source-code-search",
+    "homepage": "https://github.com/gibson9583/oie-source-code-search",
+    "documentation": "https://github.com/gibson9583/oie-source-code-search#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Diridium Technologies Inc."
+    ],
+    "keywords": [
+        "search",
+        "grep",
+        "scripts",
+        "code-templates",
+        "developer",
+        "productivity"
+    ],
+    "deprecated": false
+}

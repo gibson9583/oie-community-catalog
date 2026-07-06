@@ -1,0 +1,20 @@
+{
+    "id": "ct-strip-empty-nodes-from-xml",
+    "name": "Strip Empty Nodes from XML",
+    "description": "Example code template: Strip Empty Nodes from XML.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "ffa5fa9b-e13e-48b1-96d5-b4f7ac08d497"
+}

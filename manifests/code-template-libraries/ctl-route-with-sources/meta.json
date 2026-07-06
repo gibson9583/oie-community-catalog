@@ -1,0 +1,20 @@
+{
+    "id": "ctl-route-with-sources",
+    "name": "Route with Sources",
+    "description": "Example code template library: Route with Sources.",
+    "type": "code-template-library",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Route%20with%20Sources/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template library"
+    ],
+    "deprecated": false,
+    "contentId": "ca9c7efd-2329-4248-bb9a-0271554baeaf"
+}

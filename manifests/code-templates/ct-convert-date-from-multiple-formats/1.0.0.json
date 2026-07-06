@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/Convert%20Date%20From%20Multiple%20Formats.xml",
+    "sha256": "c82bbd14dca17690e4c4db135279a84a2e4768fb3d08712c03f6737cf003f208",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/README.md"
+}

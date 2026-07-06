@@ -1,0 +1,20 @@
+{
+    "id": "ct-extract-text-from-pdf",
+    "name": "Extract Text From PDF",
+    "description": "Example code template: Extract Text From PDF.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Extract%20Text%20From%20PDF/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "dcd2ce64-4c3c-4e53-9f71-dbf296004fe3"
+}

@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Execute%20Runtime%20Command/Execute%20Runtime%20Command.xml",
+    "sha256": "2e15d31a0f0aa7ed36e1a04a161181f77538d2e19753d4ea0ded8f79e04319e8",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Execute%20Runtime%20Command/README.md"
+}

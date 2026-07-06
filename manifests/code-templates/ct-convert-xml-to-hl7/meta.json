@@ -1,0 +1,20 @@
+{
+    "id": "ct-convert-xml-to-hl7",
+    "name": "Convert XML to HL7",
+    "description": "Example code template: Convert XML to HL7.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Convert%20XML%20to%20HL7/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "64b8b653-162b-454e-a790-21d659934bc8"
+}

@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/Unescape%20Xdd%20HL7%20Sequences.xml",
+    "sha256": "d9d0a7b392a5c6a5186571039d186073a78d575cc4d00da8480ba5e4d81fb551",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/README.md"
+}

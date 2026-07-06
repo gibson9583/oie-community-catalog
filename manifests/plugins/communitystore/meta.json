@@ -1,0 +1,22 @@
+{
+    "id": "communitystore",
+    "name": "Community Store",
+    "description": "Discover, install, and update community plugins from GitHub releases \u2014 verified by sha256 and installed through the engine's own extension installer.",
+    "type": "plugin",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/oie-community-store",
+    "homepage": "https://github.com/gibson9583/oie-community-store",
+    "documentation": "https://github.com/gibson9583/oie-community-store#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "store",
+        "marketplace",
+        "plugins",
+        "extensions",
+        "updates"
+    ],
+    "deprecated": false
+}

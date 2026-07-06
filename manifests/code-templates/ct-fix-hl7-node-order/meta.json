@@ -1,0 +1,20 @@
+{
+    "id": "ct-fix-hl7-node-order",
+    "name": "Fix HL7 Node Order",
+    "description": "Example code template: Fix HL7 Node Order.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Fix%20HL7%20Node%20Order/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "23adc50e-ab2b-4c9f-ab4b-6b17dc31bab7"
+}

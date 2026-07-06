@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/Create%20Segment%20Before%20Segment.xml",
+    "sha256": "c0495013924e9ac6a8137154da2904e7d0a396acc36302c31058676e17053c3c",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/README.md"
+}

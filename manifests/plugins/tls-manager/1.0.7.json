@@ -1,0 +1,11 @@
+{
+    "version": "1.0.7",
+    "minEngineVersion": "4.5.2",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/tls-manager-plugin/releases/download/v1.0.7/tls-manager-1.0.7.zip",
+    "sha256": "a2fda39dac8b3157b658d2041bac337a8e2b13100ba681b46c114cd490eb3e7c",
+    "restartRequired": true,
+    "publishedAt": "2026-07-06T14:23:09Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/tls-manager-plugin/releases/tag/v1.0.7",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/tls-manager-plugin/v1.0.7/docs/store.md"
+}

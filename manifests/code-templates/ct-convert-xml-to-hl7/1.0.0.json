@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20XML%20to%20HL7/Convert%20XML%20to%20HL7.xml",
+    "sha256": "c5a77522202b7e088764ae3f934ad068bdeb53e896d8a85abac67c982ef5b13d",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20XML%20to%20HL7/README.md"
+}

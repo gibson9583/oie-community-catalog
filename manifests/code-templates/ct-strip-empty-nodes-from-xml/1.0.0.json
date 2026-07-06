@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/Strip%20Empty%20Nodes%20from%20XML.xml",
+    "sha256": "983ea18f6dfb00ebfdf6a9e40bdc91d9dd9e9b84890325385e4641842bd1f421",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/README.md"
+}

@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Join%20HL7%20Subcomponents/Join%20HL7%20Subcomponents%20%28code%20template%29.xml",
+    "sha256": "d57e00220399c98e1182e0ea96a363060a4ed5ac3afd4076d1ff5fabc1d215c0",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Join%20HL7%20Subcomponents/README.md"
+}

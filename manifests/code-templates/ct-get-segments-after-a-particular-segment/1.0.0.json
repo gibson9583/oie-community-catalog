@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/Get%20Segments%20After%20a%20Particular%20Segment.xml",
+    "sha256": "f8346fc23fb7152c8e51ff57a866ca436e6396b593b13feedb7f5643ccf26ce0",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/README.md"
+}

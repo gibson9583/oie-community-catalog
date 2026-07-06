@@ -1,0 +1,23 @@
+{
+    "id": "tls-manager",
+    "name": "TLS Manager",
+    "description": "TLS-enabled networking connectors and a certificate management view for Open Integration Engine.",
+    "type": "plugin",
+    "publisher": "NovaMap Health",
+    "repository": "https://github.com/gibson9583/tls-manager-plugin",
+    "homepage": "https://github.com/gibson9583/tls-manager-plugin",
+    "documentation": "https://github.com/gibson9583/tls-manager-plugin#readme",
+    "license": "Apache-2.0 OR MPL-2.0",
+    "authors": [
+        "NovaMap Health"
+    ],
+    "keywords": [
+        "tls",
+        "ssl",
+        "certificate",
+        "mtls",
+        "security",
+        "connector"
+    ],
+    "deprecated": false
+}

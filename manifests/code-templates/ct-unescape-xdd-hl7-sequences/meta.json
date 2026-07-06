@@ -1,0 +1,20 @@
+{
+    "id": "ct-unescape-xdd-hl7-sequences",
+    "name": "Unescape Xdd HL7 Sequences",
+    "description": "Example code template: Unescape Xdd HL7 Sequences.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "9d3f1dd9-d28e-42e5-89bd-8a3569b33b69"
+}

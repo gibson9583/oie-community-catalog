@@ -1,0 +1,20 @@
+{
+    "id": "ct-thread-safe-get-or-create-from-globalmap",
+    "name": "Thread-safe get or create from globalMap",
+    "description": "Example code template: Thread-safe get or create from globalMap.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "d9c5b969-56ad-4a2f-bcec-e6708deea959"
+}

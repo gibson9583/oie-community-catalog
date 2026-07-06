@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Encrypt%20PDF/Encrypt%20PDF.xml",
+    "sha256": "d9b0de27efa71819475daaa8a54a9f0f574e6b807f727a67e2f6070b005116d8",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Encrypt%20PDF/README.md"
+}

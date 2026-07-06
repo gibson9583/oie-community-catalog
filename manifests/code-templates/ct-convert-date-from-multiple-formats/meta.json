@@ -1,0 +1,20 @@
+{
+    "id": "ct-convert-date-from-multiple-formats",
+    "name": "Convert Date From Multiple Formats",
+    "description": "Example code template: Convert Date From Multiple Formats.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "e31ef05e-7cd5-43d2-a2db-b264ed98c003"
+}

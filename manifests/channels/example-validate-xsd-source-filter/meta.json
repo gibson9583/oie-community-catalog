@@ -1,0 +1,20 @@
+{
+    "id": "example-validate-xsd-source-filter",
+    "name": "Validate XSD Source Filter",
+    "description": "Example channel: Validate XSD Source Filter.",
+    "type": "channel",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Channels/Validate%20XSD%20Source%20Filter/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "channel"
+    ],
+    "deprecated": false,
+    "contentId": "9c5f43ca-544c-4a40-80f6-455868c7e3f4"
+}

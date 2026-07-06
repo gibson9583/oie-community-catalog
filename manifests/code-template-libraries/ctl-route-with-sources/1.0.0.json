@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Route%20with%20Sources/Route%20With%20Sources%20-%20Code%20Template%20Library.xml",
+    "sha256": "86b435b9727a76bf46599d0cda3893fddd14cfb3ce4c681f0d7374f129ccf63d",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Route%20with%20Sources/README.md"
+}

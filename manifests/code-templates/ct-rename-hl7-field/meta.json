@@ -1,0 +1,20 @@
+{
+    "id": "ct-rename-hl7-field",
+    "name": "Rename HL7 Field",
+    "description": "Example code template: Rename HL7 Field.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Rename%20HL7%20Field/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "80cbe9dc-bbb9-4379-a124-21ce86b3e3ea"
+}

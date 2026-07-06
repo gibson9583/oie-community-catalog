@@ -1,0 +1,20 @@
+{
+    "id": "ct-execute-runtime-command",
+    "name": "Execute Runtime Command",
+    "description": "Example code template: Execute Runtime Command.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Execute%20Runtime%20Command/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "28e29e59-d093-41cf-8c2d-4ad4587f9e20"
+}

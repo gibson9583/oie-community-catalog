@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/Replace%20in%20All%20Descendant%20XML%20Nodes.xml",
+    "sha256": "2b4d63552764f6e842d1d36e7226d1bae20333765cbbf6285b753abcda326f6b",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/README.md"
+}

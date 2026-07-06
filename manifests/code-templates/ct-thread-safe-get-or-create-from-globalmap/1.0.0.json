@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/Thread-safe%20get%20or%20create%20from%20globalMap.xml",
+    "sha256": "9e633a024a70188e734c04689157a57c51e1b8364e89fb4c09b776b51392761a",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/README.md"
+}

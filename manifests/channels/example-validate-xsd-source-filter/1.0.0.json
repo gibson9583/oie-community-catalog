@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Validate%20XSD%20Source%20Filter/Example%20-%20Validate%20XSD.xml",
+    "sha256": "90e7145e438103e683fedd1978e110b9bd42b06dc7060b6a14478e7a197c5712",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Validate%20XSD%20Source%20Filter/README.md"
+}

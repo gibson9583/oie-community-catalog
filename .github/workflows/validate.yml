@@ -1,0 +1,35 @@
+# PR gate for catalog submissions: every manifest must validate, index.json must be
+# up to date, and any version manifest added or changed in the PR has its installer
+# downloaded and sha256-verified — the winget-pkgs model.
+
+name: Validate
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate manifests and index freshness
+        run: node scripts/build-index.mjs --check
+
+      - name: Verify digests of changed version manifests
+        if: github.event_name == 'pull_request'
+        run: |
+          CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}"...HEAD -- 'manifests/**/*.json' | grep -v '/meta\.json$' || true)
+          if [ -z "$CHANGED" ]; then
+            echo "No version manifests changed — skipping digest verification."
+          else
+            echo "$CHANGED"
+            node scripts/build-index.mjs --check --verify $CHANGED
+          fi

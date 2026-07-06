@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Rename%20HL7%20Field/Rename%20HL7%20Field.xml",
+    "sha256": "016202e6e897029b43a847dcfcbc1e11e6afb70926ffd74a2a6ae272f85ecacf",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Rename%20HL7%20Field/README.md"
+}

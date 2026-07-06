@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/gibson9583/oie-community-catalog/main/schemas/version.schema.json",
+    "title": "OIE Community Catalog version manifest (manifests/<id>/<version>.json)",
+    "description": "One immutable manifest per published version. Never edit after merge — publish a new version instead.",
+    "type": "object",
+    "required": ["version", "installerUrl", "sha256", "restartRequired"],
+    "additionalProperties": true,
+    "properties": {
+        "version": {
+            "description": "Version string; must equal the filename (<version>.json) and be numerically comparable for update detection.",
+            "type": "string",
+            "pattern": "^[0-9]+(\\.[0-9]+)*([.-][0-9A-Za-z.-]+)?$"
+        },
+        "minEngineVersion": { "type": ["string", "null"], "description": "Lowest supported engine version (inclusive)." },
+        "maxEngineVersion": { "type": ["string", "null"], "description": "Highest supported engine version (inclusive), or null." },
+        "installerUrl": {
+            "description": "Absolute HTTPS URL of the artifact — any host (GitHub Releases, GitLab, S3, plain web server).",
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+        },
+        "sha256": {
+            "description": "SHA-256 of the artifact bytes; verified by the engine before install.",
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+        },
+        "restartRequired": {
+            "description": "true for extensions (activated on engine restart); false for imported content.",
+            "type": "boolean"
+        },
+        "publishedAt": { "type": "string", "format": "date-time" },
+        "releaseNotesUrl": { "type": "string", "format": "uri" },
+        "docsUrl": {
+            "description": "Absolute URL to a markdown document rendered in the store's detail view; relative links/images resolve against its directory.",
+            "type": "string",
+            "format": "uri"
+        }
+    }
+}

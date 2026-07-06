@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Overwrite%20Logger%20Categories/Overwrite%20Logger%20Categories.xml",
+    "sha256": "734fbbb64cf7f501e9802e25bb31157f431db03d0c6aaeb1e307872221404ad2",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Overwrite%20Logger%20Categories/README.md"
+}

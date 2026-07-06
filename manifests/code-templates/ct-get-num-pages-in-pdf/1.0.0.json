@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/Get%20Num%20Pages%20In%20PDF.xml",
+    "sha256": "407c5a7e1455331197712fe8420ca895604bfda1874dd4bc9c98c8ee7fcdcc3a",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/README.md"
+}

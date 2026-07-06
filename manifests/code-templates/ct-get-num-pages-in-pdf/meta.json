@@ -1,0 +1,20 @@
+{
+    "id": "ct-get-num-pages-in-pdf",
+    "name": "Get Num Pages In PDF",
+    "description": "Example code template: Get Num Pages In PDF.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "NextGen Healthcare"
+    ],
+    "keywords": [
+        "example",
+        "code template"
+    ],
+    "deprecated": false,
+    "contentId": "7294645e-df37-4536-b2ad-a0d08f4e98be"
+}
