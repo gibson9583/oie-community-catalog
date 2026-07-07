@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T21:43:33.980Z",
+  "generatedAt": "2026-07-07T21:55:53.496Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -154,38 +154,6 @@
           "sha256": "c5a77522202b7e088764ae3f934ad068bdeb53e896d8a85abac67c982ef5b13d",
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20XML%20to%20HL7/README.md"
-        }
-      ]
-    },
-    {
-      "id": "ct-count-segments",
-      "name": "Count Segments",
-      "description": "Counts the segments with a given name (e.g. OBX) in an HL7 v2.x message. Published as a raw .js file.",
-      "type": "code-template",
-      "publisher": "NextGen Healthcare",
-      "repository": "https://github.com/gibson9583/connect-examples",
-      "homepage": "https://github.com/gibson9583/connect-examples",
-      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Count%20Segments/README.md",
-      "license": "MPL-2.0",
-      "authors": [
-        "Chris Gibson"
-      ],
-      "keywords": [
-        "example",
-        "code template",
-        "javascript"
-      ],
-      "deprecated": false,
-      "contentId": "e3fd13f1-94ab-329b-b4ef-fa95d350efbe",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "minEngineVersion": "4.0.0",
-          "maxEngineVersion": null,
-          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Count%20Segments/Count%20Segments.js",
-          "sha256": "cb39795b5825d2e9c3fc35bad2e7dbcc49e909fc2b3b5b5a1a8eddf069517194",
-          "restartRequired": false,
-          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Count%20Segments/README.md"
         }
       ]
     },
@@ -527,6 +495,39 @@
           "sha256": "2b4d63552764f6e842d1d36e7226d1bae20333765cbbf6285b753abcda326f6b",
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/README.md"
+        }
+      ]
+    },
+    {
+      "id": "ct-run-on-startup",
+      "name": "Run on Startup",
+      "description": "Sets isInitialDeploy to true while Connect is still starting up - for Deploy scripts that should only act on engine startup. Published as a raw .js file.",
+      "type": "code-template",
+      "publisher": "NextGen Healthcare",
+      "repository": "https://github.com/gibson9583/connect-examples",
+      "homepage": "https://github.com/gibson9583/connect-examples",
+      "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Run%20on%20Startup/README.md",
+      "license": "MPL-2.0",
+      "authors": [
+        "Tony Germano"
+      ],
+      "keywords": [
+        "example",
+        "code template",
+        "javascript",
+        "startup"
+      ],
+      "deprecated": false,
+      "contentId": "053e7be7-a1b5-37c1-aa29-d533c1de266a",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minEngineVersion": "4.0.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Run%20on%20Startup/Run%20on%20Startup.js",
+          "sha256": "2910854d33c9c0371127e8a3387f87781bc2fa59bd026dc657894ab3f695f4e2",
+          "restartRequired": false,
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Run%20on%20Startup/README.md"
         }
       ]
     },
