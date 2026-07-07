@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Count%20Segments/Count%20Segments.js",
+    "sha256": "cb39795b5825d2e9c3fc35bad2e7dbcc49e909fc2b3b5b5a1a8eddf069517194",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Count%20Segments/README.md"
+}

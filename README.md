@@ -37,7 +37,10 @@ A package lives in the folder matching its `meta.json` `type` — CI rejects mis
 
 Content packages (`channel`, `code-template`, `code-template-library`) must declare a
 **`contentId`** in `meta.json` — the engine id (UUID) inside the artifact — which is how
-the store detects that they are installed.
+the store detects that they are installed. For a raw `.js` code template (which has no
+id inside the file) use the store's deterministic derivation so every publishing path
+agrees on the same id: the name-based UUID of `oie:code-template:<id>` —
+`python3 -c "import uuid,hashlib; b=bytearray(hashlib.md5(b'oie:code-template:YOUR-ID').digest()); b[6]=(b[6]&15)|48; b[8]=(b[8]&63)|128; print(uuid.UUID(bytes=bytes(b)))"`.
 
 ## Submitting a package
 
