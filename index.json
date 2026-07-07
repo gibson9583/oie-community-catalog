@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T20:38:50.263Z",
+  "generatedAt": "2026-07-07T20:39:40.987Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -613,6 +613,17 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "0.6.0",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-community-store/releases/download/v0.6.0/communitystore-0.6.0.zip",
+          "sha256": "b54daa5117c257c1710abe395154186dee0761ec44e6ed05daf1e3d299fbcfcc",
+          "restartRequired": true,
+          "publishedAt": "2026-07-07T20:39:00Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.6.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.6.0/docs/store.md"
+        },
         {
           "version": "0.5.3",
           "minEngineVersion": "4.6.0",
