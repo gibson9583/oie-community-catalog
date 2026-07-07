@@ -1,0 +1,22 @@
+{
+    "id": "ct-run-on-startup",
+    "name": "Run on Startup",
+    "description": "Sets isInitialDeploy to true while Connect is still starting up - for Deploy scripts that should only act on engine startup. Published as a raw .js file.",
+    "type": "code-template",
+    "publisher": "NextGen Healthcare",
+    "repository": "https://github.com/gibson9583/connect-examples",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Run%20on%20Startup/README.md",
+    "license": "MPL-2.0",
+    "authors": [
+        "Tony Germano"
+    ],
+    "keywords": [
+        "example",
+        "code template",
+        "javascript",
+        "startup"
+    ],
+    "deprecated": false,
+    "contentId": "053e7be7-a1b5-37c1-aa29-d533c1de266a"
+}

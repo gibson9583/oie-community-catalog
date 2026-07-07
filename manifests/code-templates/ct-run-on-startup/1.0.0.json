@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Run%20on%20Startup/Run%20on%20Startup.js",
+    "sha256": "2910854d33c9c0371127e8a3387f87781bc2fa59bd026dc657894ab3f695f4e2",
+    "restartRequired": false,
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Run%20on%20Startup/README.md"
+}
