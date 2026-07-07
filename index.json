@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T18:58:31.427Z",
+  "generatedAt": "2026-07-07T20:38:50.263Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -13,7 +13,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -44,7 +44,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Channels/Validate%20XSD%20Source%20Filter/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -75,7 +75,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Route%20with%20Sources/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Tony Germano"
       ],
       "keywords": [
         "example",
@@ -106,7 +106,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -137,7 +137,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Convert%20XML%20to%20HL7/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -168,7 +168,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -199,7 +199,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Encrypt%20PDF/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -230,7 +230,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Execute%20Runtime%20Command/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -261,7 +261,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Extract%20Text%20From%20PDF/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -292,7 +292,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Fix%20HL7%20Node%20Order/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -323,7 +323,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -354,7 +354,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -385,7 +385,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Join%20HL7%20Subcomponents/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Tony Germano"
       ],
       "keywords": [
         "example",
@@ -416,7 +416,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Overwrite%20Logger%20Categories/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -447,7 +447,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Rename%20HL7%20Field/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -478,7 +478,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -509,7 +509,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
@@ -540,7 +540,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Tony Germano"
       ],
       "keywords": [
         "example",
@@ -571,7 +571,7 @@
       "documentation": "https://github.com/gibson9583/connect-examples/blob/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/README.md",
       "license": "MPL-2.0",
       "authors": [
-        "NextGen Healthcare"
+        "Nick Rupley"
       ],
       "keywords": [
         "example",
