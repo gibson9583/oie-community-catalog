@@ -7,5 +7,5 @@
     "restartRequired": true,
     "publishedAt": "2026-07-06T13:31:11Z",
     "releaseNotesUrl": "https://github.com/gibson9583/sqs-source-connector/releases/tag/v0.5.0",
-    "docsUrl": "https://raw.githubusercontent.com/gibson9583/sqs-source-connector/v0.5.0/docs/store.md"
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/sqs-source-connector/main/docs/store.md"
 }
