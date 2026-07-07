@@ -1,0 +1,11 @@
+{
+    "version": "0.4.0",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/oie-community-store/releases/download/v0.4.0/communitystore-0.4.0.zip",
+    "sha256": "deafd16dc3ebb1e7f7056e7928c76b47474131de27ac73388b97cfcbbca3dd03",
+    "restartRequired": true,
+    "publishedAt": "2026-07-06T23:57:56Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.4.0",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.4.0/docs/store.md"
+}
