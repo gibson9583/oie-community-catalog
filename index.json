@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T17:09:36.794Z",
+  "generatedAt": "2026-07-07T17:44:34.809Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -659,28 +659,6 @@
           "publishedAt": "2026-07-07T17:07:21Z",
           "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.5.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.5.0/docs/store.md"
-        },
-        {
-          "version": "0.4.0",
-          "minEngineVersion": "4.6.0",
-          "maxEngineVersion": null,
-          "installerUrl": "https://github.com/gibson9583/oie-community-store/releases/download/v0.4.0/communitystore-0.4.0.zip",
-          "sha256": "deafd16dc3ebb1e7f7056e7928c76b47474131de27ac73388b97cfcbbca3dd03",
-          "restartRequired": true,
-          "publishedAt": "2026-07-06T23:57:56Z",
-          "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.4.0",
-          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.4.0/docs/store.md"
-        },
-        {
-          "version": "0.3.2",
-          "minEngineVersion": "4.6.0",
-          "maxEngineVersion": null,
-          "installerUrl": "https://github.com/gibson9583/oie-community-store/releases/download/v0.3.2/communitystore-0.3.2.zip",
-          "sha256": "14a3f9be00e087aa70b174aa6581db0efe839598f771bc703717d2610a823438",
-          "restartRequired": true,
-          "publishedAt": "2026-07-06T20:42:56Z",
-          "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.3.2",
-          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.3.2/docs/store.md"
         }
       ]
     },
