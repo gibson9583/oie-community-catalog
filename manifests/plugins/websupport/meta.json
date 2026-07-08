@@ -1,0 +1,21 @@
+{
+    "id": "websupport",
+    "name": "Web Support",
+    "description": "Engine-side endpoints for the OIE web administrator: byte-exact message serialization, JavaScript validation, and web plugin UI serving. Endpoints only - no UI. Install this one manually first; everything else flows through the store.",
+    "type": "plugin",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/oie-web-support-plugin",
+    "homepage": "https://github.com/gibson9583/oie-web-support-plugin",
+    "documentation": "https://github.com/gibson9583/oie-web-support-plugin#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "web",
+        "administrator",
+        "serialization",
+        "validation"
+    ],
+    "deprecated": false
+}

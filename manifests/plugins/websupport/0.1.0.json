@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/download/v0.1.0/websupport-0.1.0.zip",
+    "sha256": "8b70f2d91887e394b80c1269d24e3fc31cf930e62bdfbf7166f2f5647f2ac6b9",
+    "restartRequired": true,
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/tag/v0.1.0",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-web-support-plugin/v0.1.0/docs/store.md"
+}

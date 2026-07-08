@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T21:55:53.496Z",
+  "generatedAt": "2026-07-08T14:28:28.382Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -772,6 +772,39 @@
           "publishedAt": "2026-07-06T14:23:09Z",
           "releaseNotesUrl": "https://github.com/gibson9583/tls-manager-plugin/releases/tag/v1.0.7",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/tls-manager-plugin/v1.0.7/docs/store.md"
+        }
+      ]
+    },
+    {
+      "id": "websupport",
+      "name": "Web Support",
+      "description": "Engine-side endpoints for the OIE web administrator: byte-exact message serialization, JavaScript validation, and web plugin UI serving. Endpoints only - no UI. Install this one manually first; everything else flows through the store.",
+      "type": "plugin",
+      "publisher": "Chris Gibson",
+      "repository": "https://github.com/gibson9583/oie-web-support-plugin",
+      "homepage": "https://github.com/gibson9583/oie-web-support-plugin",
+      "documentation": "https://github.com/gibson9583/oie-web-support-plugin#readme",
+      "license": "MPL-2.0",
+      "authors": [
+        "Chris Gibson"
+      ],
+      "keywords": [
+        "web",
+        "administrator",
+        "serialization",
+        "validation"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/download/v0.1.0/websupport-0.1.0.zip",
+          "sha256": "8b70f2d91887e394b80c1269d24e3fc31cf930e62bdfbf7166f2f5647f2ac6b9",
+          "restartRequired": true,
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/tag/v0.1.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-web-support-plugin/v0.1.0/docs/store.md"
         }
       ]
     }
