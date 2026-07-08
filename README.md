@@ -32,15 +32,12 @@ A package lives in the folder matching its `meta.json` `type` — CI rejects mis
 |---|---|---|
 | `plugin` / `connector` / `datatype` | built extension `.zip` | engine extension installer (restart required) |
 | `channel` | channel export XML | imported — takes effect immediately |
-| `code-template` | code template XML (or a raw `.js` file) | imported into a library you choose |
+| `code-template` | code template XML | imported into a library you choose |
 | `code-template-library` | library export XML | imported with all member templates |
 
 Content packages (`channel`, `code-template`, `code-template-library`) must declare a
 **`contentId`** in `meta.json` — the engine id (UUID) inside the artifact — which is how
-the store detects that they are installed. For a raw `.js` code template (which has no
-id inside the file) use the store's deterministic derivation so every publishing path
-agrees on the same id: the name-based UUID of `oie:code-template:<id>` —
-`python3 -c "import uuid,hashlib; b=bytearray(hashlib.md5(b'oie:code-template:YOUR-ID').digest()); b[6]=(b[6]&15)|48; b[8]=(b[8]&63)|128; print(uuid.UUID(bytes=bytes(b)))"`.
+the store detects that they are installed.
 
 ## Submitting a package
 

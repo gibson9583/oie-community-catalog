@@ -1,0 +1,23 @@
+{
+    "id": "sqs-connector",
+    "name": "AWS SQS Connector",
+    "description": "Source (SQS Reader) and destination (SQS Sender) connectors for Amazon SQS queues.",
+    "type": "connector",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/sqs-source-connector",
+    "homepage": "https://github.com/gibson9583/sqs-source-connector",
+    "documentation": "https://github.com/gibson9583/sqs-source-connector#readme",
+    "license": "MIT",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "aws",
+        "sqs",
+        "queue",
+        "source",
+        "destination",
+        "messaging"
+    ],
+    "deprecated": false
+}
