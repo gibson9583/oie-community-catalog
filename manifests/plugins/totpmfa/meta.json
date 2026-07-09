@@ -1,0 +1,23 @@
+{
+    "id": "totpmfa",
+    "name": "TOTP MFA",
+    "description": "TOTP (RFC 6238) multi-factor authentication for administrator login. Enrolled users are challenged for a time-based one-time code after their password; per-user secrets are stored encrypted in a dedicated USER_TOTP database table (MyBatis), with one-time-use (replay) protection. Server-only — the web administrator's built-in OTP UI renders enrollment/verification.",
+    "type": "plugin",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/oie-totp-plugin",
+    "homepage": "https://github.com/gibson9583/oie-totp-plugin",
+    "documentation": "https://github.com/gibson9583/oie-totp-plugin#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "mfa",
+        "2fa",
+        "totp",
+        "authentication",
+        "security",
+        "login"
+    ],
+    "deprecated": false
+}
