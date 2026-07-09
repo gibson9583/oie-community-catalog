@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T17:45:29.838Z",
+  "generatedAt": "2026-07-09T18:23:42.067Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -861,7 +861,7 @@
     {
       "id": "totpmfa",
       "name": "TOTP MFA",
-      "description": "TOTP (RFC 6238) multi-factor authentication for administrator login. Enrolled users are challenged for a time-based one-time code after their password; per-user secrets are stored encrypted in a dedicated USER_TOTP database table (MyBatis), with one-time-use (replay) protection. Server-only — the web administrator's built-in OTP UI renders enrollment/verification.",
+      "description": "TOTP (RFC 6238) multi-factor authentication for administrator login. Users self-enroll on first login (QR / key + code); every login after asks for the current code. Per-user secrets are stored encrypted in a dedicated USER_TOTP database table (MyBatis) with one-time-use (replay) protection. Includes a Settings tab to reset a user for lost-device recovery.",
       "type": "plugin",
       "publisher": "Chris Gibson",
       "repository": "https://github.com/gibson9583/oie-totp-plugin",
@@ -881,6 +881,17 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "0.2.0",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.2.0/totpmfa-0.2.0.zip",
+          "sha256": "7f7bba85de712c0629756d53b15de680735d61cd11b74bb75fbe50b2288d0993",
+          "restartRequired": true,
+          "publishedAt": "2026-07-09T18:23:10Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/tag/v0.2.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-totp-plugin/v0.2.0/docs/store.md"
+        },
         {
           "version": "0.1.0",
           "minEngineVersion": "4.6.0",
