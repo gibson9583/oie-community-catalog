@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T18:23:42.067Z",
+  "generatedAt": "2026-07-09T23:26:25.397Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -765,6 +765,44 @@
       ]
     },
     {
+      "id": "simple-channel-history",
+      "name": "Simple Channel History",
+      "description": "Version history for channels and code templates: automatic revision tracking on save, a decomposed side-by-side component diff, revert and prune, deleted-item XML snapshots, and a Deleted Items settings tab. Works in both the Swing and web administrators.",
+      "type": "plugin",
+      "publisher": "Diridium Technologies Inc.",
+      "repository": "https://github.com/gibson9583/simple-channel-history",
+      "homepage": "https://github.com/gibson9583/simple-channel-history",
+      "documentation": "https://github.com/gibson9583/simple-channel-history#readme",
+      "license": "MPL-2.0",
+      "authors": [
+        "Diridium Technologies Inc.",
+        "Kiran Ayyagari"
+      ],
+      "keywords": [
+        "history",
+        "versioning",
+        "channels",
+        "code-templates",
+        "diff",
+        "revert",
+        "audit"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "2.7.1",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/simple-channel-history/releases/download/v2.7.1/simple-channel-history-2.7.1.zip",
+          "sha256": "1bcdd6151788e945f03f7cb94edbb97e0799a406da945718d0858e16f38ac69c",
+          "restartRequired": true,
+          "publishedAt": "2026-07-09T23:25:01Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/simple-channel-history/releases/tag/v2.7.1",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/simple-channel-history/v2.7.1/docs/store.md"
+        }
+      ]
+    },
+    {
       "id": "thread-viewer",
       "name": "Thread Viewer",
       "description": "Real-time JVM thread monitoring with channel-aware filtering, deadlock detection, and jstack-compatible thread dump export - in the Swing and Web Administrators.",
@@ -881,6 +919,17 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "0.3.0",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.3.0/totpmfa-0.3.0.zip",
+          "sha256": "d27551aa1435b0bafa35278fd13b1d1be0ba2f801d38877b5dd4876c023526bc",
+          "restartRequired": true,
+          "publishedAt": "2026-07-09T18:46:15Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/tag/v0.3.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-totp-plugin/v0.3.0/docs/store.md"
+        },
         {
           "version": "0.2.0",
           "minEngineVersion": "4.6.0",
