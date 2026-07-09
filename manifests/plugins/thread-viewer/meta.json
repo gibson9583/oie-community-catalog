@@ -1,0 +1,25 @@
+{
+    "id": "thread-viewer",
+    "name": "Thread Viewer",
+    "description": "Real-time JVM thread monitoring with channel-aware filtering, deadlock detection, and jstack-compatible thread dump export - in the Swing and Web Administrators.",
+    "type": "plugin",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/engine-thread-viewer",
+    "homepage": "https://github.com/gibson9583/engine-thread-viewer",
+    "documentation": "https://github.com/gibson9583/engine-thread-viewer#readme",
+    "license": "MIT",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "threads",
+        "monitoring",
+        "jvm",
+        "deadlock",
+        "thread-dump",
+        "jstack",
+        "dashboard",
+        "performance"
+    ],
+    "deprecated": false
+}

@@ -1,0 +1,10 @@
+{
+    "version": "1.0.1",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/engine-thread-viewer/releases/download/v1.0.1/thread-viewer-1.0.1.zip",
+    "sha256": "ad0f3e3911cb371b036def71d94ab733e46b673f60590aacd2307858b8b83d46",
+    "restartRequired": true,
+    "releaseNotesUrl": "https://github.com/gibson9583/engine-thread-viewer/releases/tag/v1.0.1",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/engine-thread-viewer/v1.0.1/docs/store.md"
+}
