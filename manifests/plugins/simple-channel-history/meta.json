@@ -1,0 +1,25 @@
+{
+    "id": "simple-channel-history",
+    "name": "Simple Channel History",
+    "description": "Version history for channels and code templates: automatic revision tracking on save, a decomposed side-by-side component diff, revert and prune, deleted-item XML snapshots, and a Deleted Items settings tab. Works in both the Swing and web administrators.",
+    "type": "plugin",
+    "publisher": "Diridium Technologies Inc.",
+    "repository": "https://github.com/gibson9583/simple-channel-history",
+    "homepage": "https://github.com/gibson9583/simple-channel-history",
+    "documentation": "https://github.com/gibson9583/simple-channel-history#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Diridium Technologies Inc.",
+        "Kiran Ayyagari"
+    ],
+    "keywords": [
+        "history",
+        "versioning",
+        "channels",
+        "code-templates",
+        "diff",
+        "revert",
+        "audit"
+    ],
+    "deprecated": false
+}
