@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T13:23:48.544Z",
+  "generatedAt": "2026-07-09T17:45:29.838Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -855,6 +855,42 @@
           "publishedAt": "2026-07-06T14:23:09Z",
           "releaseNotesUrl": "https://github.com/gibson9583/tls-manager-plugin/releases/tag/v1.0.7",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/tls-manager-plugin/v1.0.7/docs/store.md"
+        }
+      ]
+    },
+    {
+      "id": "totpmfa",
+      "name": "TOTP MFA",
+      "description": "TOTP (RFC 6238) multi-factor authentication for administrator login. Enrolled users are challenged for a time-based one-time code after their password; per-user secrets are stored encrypted in a dedicated USER_TOTP database table (MyBatis), with one-time-use (replay) protection. Server-only — the web administrator's built-in OTP UI renders enrollment/verification.",
+      "type": "plugin",
+      "publisher": "Chris Gibson",
+      "repository": "https://github.com/gibson9583/oie-totp-plugin",
+      "homepage": "https://github.com/gibson9583/oie-totp-plugin",
+      "documentation": "https://github.com/gibson9583/oie-totp-plugin#readme",
+      "license": "MPL-2.0",
+      "authors": [
+        "Chris Gibson"
+      ],
+      "keywords": [
+        "mfa",
+        "2fa",
+        "totp",
+        "authentication",
+        "security",
+        "login"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.1.0/totpmfa-0.1.0.zip",
+          "sha256": "d6d8b395ee4ce1aa2dafca4bcfb72238d45119475a9e11ef99c57d1df0d08acf",
+          "restartRequired": true,
+          "publishedAt": "2026-07-09T17:20:49Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/tag/v0.1.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-totp-plugin/v0.1.0/docs/store.md"
         }
       ]
     },
