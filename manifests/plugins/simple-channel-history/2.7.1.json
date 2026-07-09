@@ -1,0 +1,11 @@
+{
+    "version": "2.7.1",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/simple-channel-history/releases/download/v2.7.1/simple-channel-history-2.7.1.zip",
+    "sha256": "1bcdd6151788e945f03f7cb94edbb97e0799a406da945718d0858e16f38ac69c",
+    "restartRequired": true,
+    "publishedAt": "2026-07-09T23:25:01Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/simple-channel-history/releases/tag/v2.7.1",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/simple-channel-history/v2.7.1/docs/store.md"
+}
