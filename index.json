@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T23:26:25.397Z",
+  "generatedAt": "2026-07-10T16:45:07.053Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -614,6 +614,17 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "0.5.1",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/sqs-source-connector/releases/download/v0.5.1/sqs-connector-0.5.1.zip",
+          "sha256": "0ebf682c0f7aa37adbb50ec2e75a02ac206f70d4ea5728392a1e9860cedd903a",
+          "restartRequired": true,
+          "publishedAt": "2026-07-10T16:44:40Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/sqs-source-connector/releases/tag/v0.5.1",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/sqs-source-connector/v0.5.1/docs/store.md"
+        },
         {
           "version": "0.5.0",
           "minEngineVersion": "4.6.0",
