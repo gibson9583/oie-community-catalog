@@ -1,0 +1,173 @@
+# Reusable catalog-publish workflow. Publisher repos call it after a release:
+#
+#   jobs:
+#     catalog:
+#       uses: gibson9583/oie-community-catalog/.github/workflows/publish-to-catalog.yml@main
+#       with: { tag: v1.2.3 }
+#       secrets: { CATALOG_TOKEN: ${{ secrets.CATALOG_TOKEN }} }
+#
+# Only the tag is passed in; identity, type, asset name, engine range, ui, and docs
+# all come from the CALLER repo's oie.json at that tag, and the sha256 is computed
+# by downloading the published release asset (so any build process qualifies).
+# See README.md "Publishing automatically" for the caller templates and token setup.
+#
+# Context note: in a reusable workflow the `github` context belongs to the CALLER —
+# github.repository is the publisher repo (that is what makes the raw/asset URLs
+# work), and actions/checkout defaults to it, so the catalog checkout is explicit.
+
+name: Publish to catalog
+
+on:
+  workflow_call:
+    inputs:
+      tag:
+        description: "Release tag to publish (e.g. v1.2.3) — oie.json and the asset are read at this tag"
+        type: string
+        required: true
+    secrets:
+      CATALOG_TOKEN:
+        description: "Fine-grained PAT with Contents + Pull requests read/write on the catalog repo"
+        required: true
+
+permissions: {}   # only the PAT is used; drop the caller's GITHUB_TOKEN grants
+
+jobs:
+  catalog-manifest:
+    runs-on: ubuntu-latest
+    concurrency: catalog-pr-${{ github.repository }}
+    env:
+      CATALOG_REPO: gibson9583/oie-community-catalog
+      SRC_REPO: ${{ github.repository }}          # the CALLER (publisher) repo
+      TAG: ${{ inputs.tag }}
+      GH_TOKEN: ${{ secrets.CATALOG_TOKEN }}
+    steps:
+      - name: Require the catalog token
+        # `required: true` only forces the caller to map the secret — an unset repo
+        # secret still arrives empty, so guard explicitly.
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::CATALOG_TOKEN secret is empty — add a fine-grained PAT with Contents+Pull requests access to $CATALOG_REPO."
+            exit 1
+          fi
+
+      - name: Fetch the tagged oie.json and derive identity
+        run: |
+          if ! curl -fsSL --retry 3 "https://raw.githubusercontent.com/${SRC_REPO}/${TAG}/oie.json" -o /tmp/oie.json; then
+            echo "::error::Could not fetch oie.json from ${SRC_REPO} at ${TAG} — does the tag exist with an oie.json at the repo root?"
+            exit 1
+          fi
+          if ! jq empty /tmp/oie.json 2>/dev/null; then
+            echo "::error::${SRC_REPO}@${TAG} oie.json is not valid JSON."
+            exit 1
+          fi
+          VERSION="${TAG#v}"
+          MANIFEST_VERSION="$(jq -r .version /tmp/oie.json)"; MANIFEST_VERSION="${MANIFEST_VERSION#v}"
+          if [ "$VERSION" != "$MANIFEST_VERSION" ]; then
+            echo "::error::Tag ${TAG} implies version $VERSION but oie.json says $MANIFEST_VERSION"
+            exit 1
+          fi
+          ID="$(jq -r '.id // empty' /tmp/oie.json)"
+          if [ -z "$ID" ]; then
+            echo "::error::oie.json has no \"id\" — the catalog package id is required."
+            exit 1
+          fi
+          TYPE="$(jq -r .type /tmp/oie.json)"
+          case "$TYPE" in
+            plugin)                TYPE_DIR=plugins ;;
+            connector)             TYPE_DIR=connectors ;;
+            datatype)              TYPE_DIR=datatypes ;;
+            channel)               TYPE_DIR=channels ;;
+            code-template)         TYPE_DIR=code-templates ;;
+            code-template-library) TYPE_DIR=code-template-libraries ;;
+            *) echo "::error::oie.json \"type\" (\"$TYPE\") is not a catalog package type"; exit 1 ;;
+          esac
+          FILENAME="$(jq -r --arg id "$ID" '.filename // ($id + "-{version}.zip")' /tmp/oie.json)"
+          FILENAME="${FILENAME//\{version\}/${VERSION}}"
+          { echo "VERSION=$VERSION"; echo "ID=$ID"; echo "TYPE_DIR=$TYPE_DIR"; echo "FILENAME=$FILENAME"; } >> "$GITHUB_ENV"
+
+      - name: Download the release asset and compute sha256
+        # Public asset URL, no auth: CATALOG_TOKEN is scoped to the catalog repo and
+        # fine-grained PATs can 404 on API reads outside their grant. Retries cover
+        # asset propagation right after the release is published.
+        run: |
+          ASSET_URL="https://github.com/${SRC_REPO}/releases/download/${TAG}/${FILENAME}"
+          if ! curl -fL --retry 8 --retry-delay 15 --retry-all-errors -o /tmp/asset "$ASSET_URL"; then
+            echo "::error::Could not download ${ASSET_URL} — is the ${TAG} release published with an asset named ${FILENAME}?"
+            exit 1
+          fi
+          echo "SHA256=$(sha256sum /tmp/asset | cut -d' ' -f1)" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+        with:
+          repository: gibson9583/oie-community-catalog   # NOT the default (= caller repo)
+          token: ${{ secrets.CATALOG_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refuse to overwrite a published version manifest
+        # Version manifests are immutable once merged; publish a new version instead.
+        run: |
+          if [ -f "manifests/${TYPE_DIR}/${ID}/${VERSION}.json" ]; then
+            echo "::error::manifests/${TYPE_DIR}/${ID}/${VERSION}.json already exists on main — version manifests are immutable."
+            exit 1
+          fi
+
+      - name: Write meta.json and the version manifest (from the tagged oie.json)
+        run: |
+          node -e '
+            const fs = require("fs");
+            const o = JSON.parse(fs.readFileSync("/tmp/oie.json", "utf8"));
+            const { SRC_REPO, TAG, VERSION, SHA256, ID, TYPE_DIR, FILENAME } = process.env;
+            const dir = `manifests/${TYPE_DIR}/${ID}`;
+            fs.mkdirSync(dir, { recursive: true });
+
+            const meta = {
+              id: o.id, name: o.name, description: o.description, type: o.type,
+              publisher: (o.authors && o.authors[0]) || o.id,
+              repository: `https://github.com/${SRC_REPO}`,           // the real host, blocklist-matchable
+              homepage: o.homepage, documentation: o.documentation,
+              license: o.license, authors: o.authors || [], keywords: o.keywords || [],
+              deprecated: !!o.deprecated,
+            };
+            if (o.contentId) meta.contentId = o.contentId;            // channel / code-template packages
+            fs.writeFileSync(`${dir}/meta.json`, JSON.stringify(meta, null, 4) + "\n");
+
+            const v = {
+              version: VERSION,
+              // ui carried only when the tagged oie.json declares it; [] is meaningful (server-only).
+              ...(o.ui !== undefined ? { ui: o.ui } : {}),
+              minEngineVersion: o.minEngineVersion || "4.6.0",
+              maxEngineVersion: o.maxEngineVersion ?? null,
+              installerUrl: `https://github.com/${SRC_REPO}/releases/download/${TAG}/${FILENAME}`,
+              sha256: SHA256,
+              restartRequired: o.restartRequired !== false,
+              publishedAt: new Date().toISOString().replace(/\.\d{3}Z$/, "Z"),
+              releaseNotesUrl: `https://github.com/${SRC_REPO}/releases/tag/${TAG}`,
+            };
+            if (o.storeDocs !== null) {
+              v.docsUrl = `https://raw.githubusercontent.com/${SRC_REPO}/${TAG}/${o.storeDocs || "docs/store.md"}`;
+            }
+            fs.writeFileSync(`${dir}/${VERSION}.json`, JSON.stringify(v, null, 4) + "\n");
+          '
+
+      - name: Validate (schema + digest download)
+        run: node scripts/build-index.mjs --lint --verify "manifests/${TYPE_DIR}/${ID}/${VERSION}.json"
+
+      - name: Open or refresh the catalog PR
+        run: |
+          BRANCH="${ID}-${VERSION}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add "manifests/${TYPE_DIR}/${ID}"
+          git commit -m "${ID} ${VERSION}"
+          git push -f origin "$BRANCH"
+          if gh pr list -R "$CATALOG_REPO" --head "$BRANCH" --json number -q '.[0].number' | grep -q .; then
+            echo "PR already open for $BRANCH — branch updated."
+          else
+            gh pr create -R "$CATALOG_REPO" --head "$BRANCH" \
+              --title "${ID} ${VERSION}" \
+              --body "Automated manifest for [${ID} ${TAG}](https://github.com/${SRC_REPO}/releases/tag/${TAG}), filed by the reusable publish workflow. Digest computed from the release asset and verified again by catalog CI."
+          fi

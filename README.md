@@ -75,6 +75,77 @@ If you don't declare `ui`, the version manifest simply omits the key and the pac
 shows in **both** stores. Content packages (`channel` / `code-template` /
 `code-template-library`) have no `ui` at all — they always show.
 
+### Publishing automatically (reusable workflow)
+
+If your artifact is a GitHub release asset, you can skip the manual fork-and-PR flow:
+this repo hosts a reusable workflow
+([`.github/workflows/publish-to-catalog.yml`](.github/workflows/publish-to-catalog.yml))
+that files the catalog PR for you on every release. Setup, once per publisher repo:
+
+1. Create a **fine-grained PAT** scoped to only `oie-community-catalog`, with
+   repository permissions **Contents (read/write)** and **Pull requests (read/write)**.
+2. Add it to your repo's Actions secrets as **`CATALOG_TOKEN`**.
+3. Copy [`templates/publish-to-catalog-caller.yml`](templates/publish-to-catalog-caller.yml)
+   into your repo's `.github/workflows/`.
+
+The caller passes only the release tag:
+
+```yaml
+name: Catalog PR
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag: { description: "Release tag to file (e.g. v1.0.1) — for backfilling", required: true }
+jobs:
+  catalog:
+    uses: gibson9583/oie-community-catalog/.github/workflows/publish-to-catalog.yml@main
+    with:
+      tag: ${{ github.event.release.tag_name || inputs.tag }}
+    secrets:
+      CATALOG_TOKEN: ${{ secrets.CATALOG_TOKEN }}
+```
+
+**Caveat:** `on: release` does not fire for releases created by a workflow using
+`GITHUB_TOKEN` (e.g. `softprops/action-gh-release` in a tag-push build). If that's
+your release process, call the reusable workflow from the release workflow itself,
+as a job after the release step:
+
+```yaml
+  catalog:
+    needs: release
+    uses: gibson9583/oie-community-catalog/.github/workflows/publish-to-catalog.yml@main
+    with:
+      tag: ${{ github.ref_name }}
+    secrets:
+      CATALOG_TOKEN: ${{ secrets.CATALOG_TOKEN }}
+```
+
+Everything else is derived from the **`oie.json` at the repo root of the tagged
+commit** (fetched publicly — the tag must carry it):
+
+| Manifest field | From `oie.json` | Default / rule |
+|---|---|---|
+| `version` | `version` | must equal the tag minus its `v` prefix — the run fails on mismatch |
+| `id` + type folder | `id`, `type` | `type` picks the `manifests/` folder (`plugin` → `plugins/`, …) |
+| asset filename | `filename` | `{version}` is substituted; default `<id>-{version}.zip` |
+| `sha256` / `installerUrl` | — | the workflow downloads `releases/download/<tag>/<filename>` and digests it |
+| `minEngineVersion` | `minEngineVersion` | `"4.6.0"` |
+| `maxEngineVersion` | `maxEngineVersion` | `null` |
+| `ui` | `ui` | carried only when declared; `[]` preserved — see [Declaring UI surfaces](#declaring-ui-surfaces-ui) |
+| `restartRequired` | `restartRequired` | `true` |
+| `docsUrl` | `storeDocs` | raw URL to that path at the tag; default `docs/store.md`; omitted when `storeDocs` is `null` |
+| `meta.json` | `name`, `description`, `authors`, `keywords`, `license`, `homepage`, `documentation`, `deprecated`, `contentId` | `publisher` = first author; `repository` is always your actual repo URL; `contentId` required for content packages |
+| `releaseNotesUrl` / `publishedAt` | — | the release page at the tag; time of publishing |
+
+The resulting PR contains exactly your package's `meta.json` (refreshed every release,
+so name/description/keyword edits propagate) and the new immutable `<version>.json` —
+the same files as a manual submission, on a branch named `<id>-<version>` (re-running
+for the same tag updates the open PR rather than duplicating it). It then goes through
+the normal gate: catalog CI re-downloads your installer and verifies the `sha256`
+before the PR can merge.
+
 ## Removing / blocking a package
 
 Open a PR that removes the package's manifest directory (it disappears from the index

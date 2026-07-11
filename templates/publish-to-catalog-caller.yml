@@ -1,0 +1,43 @@
+# Files a catalog PR for every published release — copy into your publisher repo.
+#
+# Setup (once per repo):
+#   1. Create a fine-grained PAT scoped to ONLY gibson9583/oie-community-catalog,
+#      with repository permissions: Contents (read/write) + Pull requests (read/write).
+#   2. Add it to this repo's Actions secrets as CATALOG_TOKEN.
+#   3. Copy this file to .github/workflows/ (any name, e.g. catalog-pr.yml).
+#
+# Everything else — id, type, version, asset filename, engine range, ui, docs — is
+# read from your oie.json at the release tag, and the sha256 is computed from the
+# published release asset. See the catalog README, "Publishing automatically".
+#
+# Caveat: `on: release` does NOT fire for releases created by a workflow using
+# GITHUB_TOKEN (e.g. softprops/action-gh-release in a tag-push build). In that case
+# skip the triggers below and call the reusable workflow from your release workflow
+# instead, as a job after the release is published:
+#
+#   catalog:
+#     needs: release
+#     uses: gibson9583/oie-community-catalog/.github/workflows/publish-to-catalog.yml@main
+#     with:
+#       tag: ${{ github.ref_name }}
+#     secrets:
+#       CATALOG_TOKEN: ${{ secrets.CATALOG_TOKEN }}
+
+name: Catalog PR
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to file (e.g. v1.0.1) — for backfilling"
+        required: true
+
+jobs:
+  catalog:
+    uses: gibson9583/oie-community-catalog/.github/workflows/publish-to-catalog.yml@main
+    with:
+      tag: ${{ github.event.release.tag_name || inputs.tag }}
+    secrets:
+      CATALOG_TOKEN: ${{ secrets.CATALOG_TOKEN }}
