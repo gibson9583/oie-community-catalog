@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-11T22:46:59.313Z",
+  "generatedAt": "2026-07-11T23:03:32.838Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -676,6 +676,21 @@
       "deprecated": false,
       "versions": [
         {
+          "version": "0.7.5",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-community-store/releases/download/v0.7.5/communitystore-0.7.5.zip",
+          "sha256": "6d0690df380081684d182162e5ac746c0656034b2318d609893428958d4e22cd",
+          "restartRequired": true,
+          "publishedAt": "2026-07-11T22:56:45Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.7.5",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.7.5/docs/store.md",
+          "ui": [
+            "web",
+            "swing"
+          ]
+        },
+        {
           "version": "0.7.4",
           "minEngineVersion": "4.6.0",
           "maxEngineVersion": null,
@@ -830,6 +845,21 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "2.7.2",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/simple-channel-history/releases/download/v2.7.2/simple-channel-history-2.7.2.zip",
+          "sha256": "5606635de1237b1d84610ab94cf482dd994c6a4b1e7d79d1442dd0fae073f5e6",
+          "restartRequired": true,
+          "publishedAt": "2026-07-11T22:47:12Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/simple-channel-history/releases/tag/v2.7.2",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/simple-channel-history/v2.7.2/docs/store.md",
+          "ui": [
+            "web",
+            "swing"
+          ]
+        },
         {
           "version": "2.7.1",
           "minEngineVersion": "4.6.0",
