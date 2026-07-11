@@ -6,5 +6,5 @@
     "sha256": "c40af9c6d5ca3dfaf0ef17c94e75ce38440dba768a6f54e34162f5fc198f31bd",
     "restartRequired": true,
     "releaseNotesUrl": "https://github.com/gibson9583/engine-thread-viewer/releases/tag/v1.0.2",
-    "docsUrl": "https://raw.githubusercontent.com/gibson9583/engine-thread-viewer/v1.0.2/docs/store.md"
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/engine-thread-viewer/main/docs/store.md"
 }

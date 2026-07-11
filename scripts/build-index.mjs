@@ -130,6 +130,14 @@ function loadPackage(dir, where, id, expectedType, packages) {
             if (v.sha256 && !SHA256_RE.test(v.sha256)) fail(`${vWhere}: "sha256" must be 64 lowercase hex chars`);
             if (v.installerUrl) httpsUrl(v.installerUrl, vWhere, 'installerUrl');
             if (v.docsUrl) httpsUrl(v.docsUrl, vWhere, 'docsUrl');
+            // `ui` (optional) is declared in the plugin's oie.json and carried into the version
+            // manifest by the publisher's release workflow; it flows into index.json verbatim.
+            // Constrain the shape so a malformed value is rejected rather than shipped.
+            if (v.ui !== undefined && (!Array.isArray(v.ui)
+                    || v.ui.some((s) => s !== 'web' && s !== 'swing')
+                    || new Set(v.ui).size !== v.ui.length)) {
+                fail(`${vWhere}: "ui" must be an array of unique surfaces from {"web","swing"}`);
+            }
             versions.push(v);
         }
         if (versions.length === 0) fail(`${where}: no version manifests`);

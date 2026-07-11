@@ -62,6 +62,19 @@ Publishing a new version is the same flow: add `<new-version>.json`, rebuild, PR
 Version manifests are immutable — never edit a published one; publish a new version
 instead.
 
+### Declaring UI surfaces (`ui`)
+
+Extensions may declare which UI surfaces they ship by adding a `ui` array to their
+`oie.json`: `["web","swing"]` = both, `["web"]` = web-only, `["swing"]` = Swing-only,
+`[]` = a server-only extension with no UI. Your release workflow carries the value
+from the tagged `oie.json` into the version manifest it publishes here, and the
+compiled `index.json` passes it through verbatim. Stores filter their listings on it:
+a web store hides Swing-only entries and vice-versa.
+
+If you don't declare `ui`, the version manifest simply omits the key and the package
+shows in **both** stores. Content packages (`channel` / `code-template` /
+`code-template-library`) have no `ui` at all — they always show.
+
 ## Removing / blocking a package
 
 Open a PR that removes the package's manifest directory (it disappears from the index

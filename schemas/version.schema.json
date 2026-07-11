@@ -35,6 +35,12 @@
             "description": "Absolute URL to a markdown document rendered in the store's detail view; relative links/images resolve against its directory.",
             "type": "string",
             "format": "uri"
+        },
+        "ui": {
+            "description": "UI surfaces this version ships, declared in the package's oie.json and carried into this manifest by the publisher's release workflow. ['web','swing'] = both, ['web'] / ['swing'] = one store only, [] = server-only extension with no UI. Omit the key entirely when undeclared — the package then shows in both stores.",
+            "type": "array",
+            "items": { "type": "string", "enum": ["web", "swing"] },
+            "uniqueItems": true
         }
     }
 }
