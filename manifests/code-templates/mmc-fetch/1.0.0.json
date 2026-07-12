@@ -1,0 +1,11 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.0.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/mmc/releases/download/v1.0.0/fetch-1.0.0.js",
+    "sha256": "42e932b82ed0dd0a751b4f9e94cbd337d331b70bf3eebd5302dc8536153e7fc2",
+    "restartRequired": false,
+    "publishedAt": "2026-07-12T21:05:07Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/mmc/releases/tag/v1.0.0",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/mmc/v1.0.0/docs/store.md"
+}

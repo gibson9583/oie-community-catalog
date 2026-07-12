@@ -1,0 +1,24 @@
+{
+    "id": "mmc-fetch",
+    "name": "fetch for Mirth",
+    "description": "A synchronous, WHATWG-fetch-style HTTP client for Rhino/Mirth Connect, built on the Apache HttpClient classes bundled with Mirth. Supports request timeouts, an HTTP proxy, and TLS options including ignoreSSLError and mutual-TLS client certificates.",
+    "type": "code-template",
+    "publisher": "Michael Hobbs",
+    "repository": "https://github.com/gibson9583/mmc",
+    "homepage": "https://github.com/gibson9583/mmc",
+    "documentation": "https://github.com/gibson9583/mmc/blob/main/src/codeTempaltes/Globals/fetch.mirth.js",
+    "license": "MIT",
+    "authors": [
+        "Michael Hobbs"
+    ],
+    "keywords": [
+        "fetch",
+        "http",
+        "client",
+        "rhino",
+        "code-template",
+        "rest"
+    ],
+    "deprecated": false,
+    "contentId": "e1b43652-cec5-42be-9361-59b96cdead28"
+}
