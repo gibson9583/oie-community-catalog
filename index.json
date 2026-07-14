@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T18:00:06.704Z",
+  "generatedAt": "2026-07-14T18:33:41.603Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -923,7 +923,7 @@
           "restartRequired": true,
           "publishedAt": "2026-07-14T17:50:14Z",
           "releaseNotesUrl": "https://github.com/diridium-com/role-based-access-control/releases/tag/v1.1.2",
-          "docsUrl": "https://raw.githubusercontent.com/diridium-com/role-based-access-control/v1.1.2/README.md"
+          "docsUrl": "https://raw.githubusercontent.com/diridium-com/role-based-access-control/refs/heads/main/README.md"
         }
       ]
     },
