@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T17:31:04.822Z",
+  "generatedAt": "2026-07-14T18:00:06.704Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -884,6 +884,46 @@
           "publishedAt": "2026-07-06T17:12:24Z",
           "releaseNotesUrl": "https://github.com/gibson9583/oie-source-code-search/releases/tag/v1.2.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-source-code-search/v1.2.0/docs/store.md"
+        }
+      ]
+    },
+    {
+      "id": "rbac",
+      "name": "Role-Based Access Control",
+      "description": "Enforces role-based access control with dynamic roles, per-permission grants, and channel-level restrictions.",
+      "type": "plugin",
+      "publisher": "Diridium Technologies Inc.",
+      "repository": "https://github.com/diridium-com/role-based-access-control",
+      "homepage": "https://github.com/diridium-com/role-based-access-control",
+      "documentation": "https://github.com/diridium-com/role-based-access-control#readme",
+      "license": "MPL-2.0",
+      "authors": [
+        "Diridium Technologies Inc."
+      ],
+      "keywords": [
+        "rbac",
+        "security",
+        "roles",
+        "permissions",
+        "access-control",
+        "authorization"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "1.1.2",
+          "ui": [
+            "web",
+            "swing"
+          ],
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/diridium-com/role-based-access-control/releases/download/v1.1.2/rbac-1.1.2.zip",
+          "sha256": "59bd1e9729c7badb193bbb9ecc4765870b37561ae7ea106c7e72cd3072e2f7ba",
+          "restartRequired": true,
+          "publishedAt": "2026-07-14T17:50:14Z",
+          "releaseNotesUrl": "https://github.com/diridium-com/role-based-access-control/releases/tag/v1.1.2",
+          "docsUrl": "https://raw.githubusercontent.com/diridium-com/role-based-access-control/v1.1.2/README.md"
         }
       ]
     },
