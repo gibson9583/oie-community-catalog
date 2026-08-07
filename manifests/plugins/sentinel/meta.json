@@ -1,0 +1,23 @@
+{
+    "id": "sentinel",
+    "name": "OIE Sentinel",
+    "description": "Zabbix-inspired monitoring and alerting for channel activity: inactivity, low-volume, anomaly, connection-status, error-rate and queue-depth monitors, with email, channel, SNS and webhook alert delivery, storm control, escalation chains, and a dashboard embedded in the OIE Web Administrator.",
+    "type": "plugin",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/oie-sentinel",
+    "homepage": "https://github.com/gibson9583/oie-sentinel",
+    "documentation": "https://github.com/gibson9583/oie-sentinel#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "monitoring",
+        "alerting",
+        "dashboard",
+        "zabbix",
+        "channel-activity",
+        "anomaly-detection"
+    ],
+    "deprecated": false
+}
