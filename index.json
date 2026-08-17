@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T22:54:11.888Z",
+  "generatedAt": "2026-08-17T19:17:55.031Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -1245,6 +1245,18 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "1.0.0",
+          "ui": [],
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/download/v1.0.0/websupport-1.0.0.zip",
+          "sha256": "8753c4b41318a1d2bf3b265f792840c57b347a20b92ca2d298da41c79b2447cb",
+          "restartRequired": true,
+          "publishedAt": "2026-08-17T18:30:46Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/tag/v1.0.0",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-web-support-plugin/v1.0.0/docs/store.md"
+        },
         {
           "version": "0.1.0",
           "minEngineVersion": "4.6.0",
