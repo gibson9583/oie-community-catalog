@@ -1,0 +1,12 @@
+{
+    "version": "1.0.3",
+    "ui": [],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/download/v1.0.3/websupport-1.0.3.zip",
+    "sha256": "11014e5fc2a2b9ca5ef5c6750c42fc65ce832b3f7e918e076f5e1f9fa71fbf9a",
+    "restartRequired": true,
+    "publishedAt": "2026-09-03T17:45:17Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/tag/v1.0.3",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-web-support-plugin/v1.0.3/docs/store.md"
+}
