@@ -1,0 +1,25 @@
+{
+    "id": "smtp-receiver",
+    "name": "SMTP Receiver",
+    "description": "Source connector that runs an SMTP server in a channel. Mail is handed to the channel as plain text (RFC 822), or as JSON or XML with the mail taken apart: envelope, headers, text, HTML and attachments. Supports AUTH PLAIN/LOGIN, STARTTLS and implicit TLS.",
+    "type": "connector",
+    "publisher": "Matthy.J. de Hoog",
+    "repository": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE",
+    "homepage": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE",
+    "documentation": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Matthy.J. de Hoog"
+    ],
+    "keywords": [
+        "smtp",
+        "email",
+        "mail",
+        "source",
+        "connector",
+        "starttls",
+        "json",
+        "xml"
+    ],
+    "deprecated": false
+}
