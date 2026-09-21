@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T12:46:34.389Z",
+  "generatedAt": "2026-09-21T12:47:46.841Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -662,6 +662,48 @@
           "publishedAt": "2026-09-21T07:55:50Z",
           "releaseNotesUrl": "https://github.com/matthydehoog/email-connector-Eclipse-OIE/releases/tag/v3.0.1",
           "docsUrl": "https://raw.githubusercontent.com/matthydehoog/email-connector-Eclipse-OIE/v3.0.1/README.md",
+          "ui": [
+            "web",
+            "swing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smtp-receiver",
+      "name": "SMTP Receiver",
+      "description": "Source connector that runs an SMTP server in a channel. Mail is handed to the channel as plain text (RFC 822), or as JSON or XML with the mail taken apart: envelope, headers, text, HTML and attachments. Supports AUTH PLAIN/LOGIN, STARTTLS and implicit TLS.",
+      "type": "connector",
+      "publisher": "Matthy.J. de Hoog",
+      "repository": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE",
+      "homepage": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE",
+      "documentation": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE#readme",
+      "license": "MPL-2.0",
+      "authors": [
+        "Matthy.J. de Hoog"
+      ],
+      "keywords": [
+        "smtp",
+        "email",
+        "mail",
+        "source",
+        "connector",
+        "starttls",
+        "json",
+        "xml"
+      ],
+      "deprecated": false,
+      "versions": [
+        {
+          "version": "2.0.1",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE/releases/download/v2.0.1/smtp-receiver-connector-2.0.1.zip",
+          "sha256": "c65124591b744d1d57c72a71d0692d2d900db7aa62cee72d9b4c6e3ac068b458",
+          "restartRequired": true,
+          "publishedAt": "2026-09-20T20:02:47Z",
+          "releaseNotesUrl": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE/releases/tag/v2.0.1",
+          "docsUrl": "https://raw.githubusercontent.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE/v2.0.1/README.md",
           "ui": [
             "web",
             "swing"
