@@ -1,0 +1,12 @@
+{
+    "version": "1.1.1",
+    "ui": ["web"],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": "4.6.0",
+    "installerUrl": "https://github.com/gibson9583/oie-sentinel/releases/download/v1.1.1/sentinel-1.1.1.zip",
+    "sha256": "b16beb1b9d16a1fc8eb9f66797d4bd92019822dfaff2378233f7153887117831",
+    "restartRequired": true,
+    "publishedAt": "2026-09-21T21:11:07Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-sentinel/releases/tag/v1.1.1",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-sentinel/v1.1.1/README.md"
+}
