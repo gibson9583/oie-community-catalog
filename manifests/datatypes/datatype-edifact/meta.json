@@ -1,0 +1,22 @@
+{
+    "id": "datatype-edifact",
+    "name": "EDIFACT Data Type",
+    "description": "Data type for UN/EDIFACT interchanges (including UNA, release characters and repetition separators), modelled on the built-in EDI / X12 data type. Includes support for the Dutch MEDLAB TAG.00 variant.",
+    "type": "datatype",
+    "publisher": "Matthy.J. de Hoog",
+    "repository": "https://github.com/matthydehoog/edifact-datatype-Eclipse-OIE",
+    "homepage": "https://github.com/matthydehoog/edifact-datatype-Eclipse-OIE",
+    "documentation": "https://github.com/matthydehoog/edifact-datatype-Eclipse-OIE#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Matthy.J. de Hoog"
+    ],
+    "keywords": [
+        "edifact",
+        "edi",
+        "data type",
+        "medlab",
+        "healthcare"
+    ],
+    "deprecated": false
+}
