@@ -1,0 +1,24 @@
+{
+    "id": "email-reader",
+    "name": "Email Reader",
+    "description": "Source connector that polls a POP3 or IMAP mailbox and hands every mail to the channel as an XML message (subject, from, to, sentDate, body).",
+    "type": "connector",
+    "publisher": "Matthy.J. de Hoog",
+    "repository": "https://github.com/matthydehoog/email-connector-Eclipse-OIE",
+    "homepage": "https://github.com/matthydehoog/email-connector-Eclipse-OIE",
+    "documentation": "https://github.com/matthydehoog/email-connector-Eclipse-OIE#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Matthy.J. de Hoog"
+    ],
+    "keywords": [
+        "email",
+        "pop3",
+        "imap",
+        "mail",
+        "source",
+        "connector",
+        "poller"
+    ],
+    "deprecated": false
+}
