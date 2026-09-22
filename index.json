@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T15:35:29.383Z",
+  "generatedAt": "2026-09-22T15:58:13.548Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -1223,6 +1223,17 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "1.0.7",
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": null,
+          "installerUrl": "https://github.com/gibson9583/engine-thread-viewer/releases/download/v1.0.7/thread-viewer-1.0.7.zip",
+          "sha256": "4ae484f12f3b2bf20fde052a999fd84041be23089098c3367a800eaf982611d0",
+          "restartRequired": true,
+          "publishedAt": "2026-09-22T15:45:10Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/engine-thread-viewer/releases/tag/v1.0.7",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/engine-thread-viewer/v1.0.7/docs/store.md"
+        },
         {
           "version": "1.0.6",
           "minEngineVersion": "4.6.0",
