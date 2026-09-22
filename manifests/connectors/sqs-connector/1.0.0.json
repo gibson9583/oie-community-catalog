@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/sqs-source-connector/releases/download/v1.0.0/sqs-connector-1.0.0.zip",
+    "sha256": "605fd18962efe240880010aea1cb7bc6449d4a80fbc21ef60952f7be2ce23120",
+    "restartRequired": true,
+    "publishedAt": "2026-09-22T15:31:06Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/sqs-source-connector/releases/tag/v1.0.0",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/sqs-source-connector/v1.0.0/docs/store.md",
+    "ui": [
+        "web",
+        "swing"
+    ]
+}
