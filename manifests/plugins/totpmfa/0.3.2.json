@@ -1,0 +1,14 @@
+{
+    "version": "0.3.2",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.3.2/totpmfa-0.3.2.zip",
+    "sha256": "51cdbd3fe839e606e41d8068e7c5890366d3d6d1a485b63f007165baf42e8ea4",
+    "restartRequired": true,
+    "publishedAt": "2026-09-22T18:59:23Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/tag/v0.3.2",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-totp-plugin/v0.3.2/docs/store.md",
+    "ui": [
+        "web"
+    ]
+}
