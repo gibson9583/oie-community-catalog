@@ -1,0 +1,20 @@
+{
+    "id": "oidcauth",
+    "name": "OIDC Authentication",
+    "description": "OIDC validation, JIT user provisioning, subject binding, and RBAC role mapping for named engine users.",
+    "type": "plugin",
+    "homepage": "https://github.com/gibson9583/oie-oidc-auth",
+    "documentation": "https://github.com/gibson9583/oie-oidc-auth#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Christopher Gibson"
+    ],
+    "keywords": [
+        "oidc",
+        "sso",
+        "authentication"
+    ],
+    "deprecated": false,
+    "publisher": "Christopher Gibson",
+    "repository": "https://github.com/gibson9583/oie-oidc-auth"
+}
