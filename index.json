@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T16:29:10.533Z",
+  "generatedAt": "2026-09-22T16:43:22.618Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -1138,6 +1138,20 @@
       ],
       "deprecated": false,
       "versions": [
+        {
+          "version": "1.1.2",
+          "ui": [
+            "web"
+          ],
+          "minEngineVersion": "4.6.0",
+          "maxEngineVersion": "4.6.0",
+          "installerUrl": "https://github.com/gibson9583/oie-sentinel/releases/download/v1.1.2/sentinel-1.1.2.zip",
+          "sha256": "a5bb0b4d31b7e291f81e23d6b4772cf1fc32a86f6c5c815c0f44b4ca5692cf4e",
+          "restartRequired": true,
+          "publishedAt": "2026-09-22T16:42:35Z",
+          "releaseNotesUrl": "https://github.com/gibson9583/oie-sentinel/releases/tag/v1.1.2",
+          "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-sentinel/v1.1.2/README.md"
+        },
         {
           "version": "1.1.1",
           "ui": [
