@@ -7,7 +7,7 @@
     "repository": "https://github.com/gibson9583/sqs-source-connector",
     "homepage": "https://github.com/gibson9583/sqs-source-connector",
     "documentation": "https://github.com/gibson9583/sqs-source-connector#readme",
-    "license": "MIT",
+    "license": "MPL-2.0",
     "authors": [
         "Chris Gibson"
     ],
