@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T19:02:16.272Z",
+  "generatedAt": "2026-09-22T19:27:31.861Z",
   "packages": [
     {
       "id": "example-get-num-pages-from-embedded-pdf",
@@ -31,7 +31,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "example-validate-xsd-source-filter",
@@ -62,7 +73,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Validate%20XSD%20Source%20Filter/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ctl-route-with-sources",
@@ -93,7 +115,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Route%20with%20Sources/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-convert-date-from-multiple-formats",
@@ -124,7 +157,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-convert-xml-to-hl7",
@@ -155,7 +199,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20XML%20to%20HL7/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-create-and-insert-segment-templates",
@@ -186,7 +241,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-encrypt-pdf",
@@ -217,7 +283,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Encrypt%20PDF/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-execute-runtime-command",
@@ -248,7 +325,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Execute%20Runtime%20Command/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-extract-text-from-pdf",
@@ -279,7 +367,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Extract%20Text%20From%20PDF/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-fix-hl7-node-order",
@@ -310,7 +409,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Fix%20HL7%20Node%20Order/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-get-num-pages-in-pdf",
@@ -341,7 +451,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-get-segments-after-a-particular-segment",
@@ -372,7 +493,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-join-hl7-subcomponents",
@@ -403,7 +535,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Join%20HL7%20Subcomponents/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-overwrite-logger-categories",
@@ -434,7 +577,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Overwrite%20Logger%20Categories/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-rename-hl7-field",
@@ -465,7 +619,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Rename%20HL7%20Field/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-replace-in-all-descendant-xml-nodes",
@@ -496,7 +661,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-strip-empty-nodes-from-xml",
@@ -527,7 +703,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-thread-safe-get-or-create-from-globalmap",
@@ -558,7 +745,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "ct-unescape-xdd-hl7-sequences",
@@ -589,7 +787,18 @@
           "restartRequired": false,
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "mmc-fetch",
@@ -626,7 +835,18 @@
           "releaseNotesUrl": "https://github.com/gibson9583/mmc/releases/tag/v1.0.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/mmc/v1.0.0/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 0,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "unavailable"
+        }
+      }
     },
     {
       "id": "email-reader",
@@ -667,7 +887,21 @@
             "swing"
           ]
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 2,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 4,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "smtp-receiver",
@@ -709,7 +943,21 @@
             "swing"
           ]
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 3,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "sqs-connector",
@@ -801,7 +1049,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/sqs-source-connector/releases/tag/v0.5.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/sqs-source-connector/main/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 2,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 48,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "datatype-edifact",
@@ -840,7 +1102,21 @@
             "swing"
           ]
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 0,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 2,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "communitystore",
@@ -1016,7 +1292,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/oie-community-store/releases/tag/v0.5.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-community-store/v0.5.0/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 6,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 71,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "oidcauth",
@@ -1052,7 +1342,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/oie-oidc-auth/releases/tag/v1.0.2",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-oidc-auth/v1.0.2/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 42,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "oie-source-code-search",
@@ -1088,7 +1392,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/oie-source-code-search/releases/tag/v1.2.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-source-code-search/v1.2.0/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 0,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 15,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "rbac",
@@ -1128,7 +1446,21 @@
           "releaseNotesUrl": "https://github.com/diridium-com/role-based-access-control/releases/tag/v1.1.2",
           "docsUrl": "https://raw.githubusercontent.com/diridium-com/role-based-access-control/refs/heads/main/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 3,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 122,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "sentinel",
@@ -1223,7 +1555,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/oie-sentinel/releases/tag/v1.0.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-sentinel/v1.0.0/README.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 3,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 163,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "simple-channel-history",
@@ -1276,7 +1622,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/simple-channel-history/releases/tag/v2.7.1",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/simple-channel-history/v2.7.1/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 0,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 17,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "thread-viewer",
@@ -1356,7 +1716,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/engine-thread-viewer/releases/tag/v1.0.1",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/engine-thread-viewer/v1.0.1/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 134,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "tls-manager",
@@ -1392,7 +1766,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/tls-manager-plugin/releases/tag/v1.0.7",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/tls-manager-plugin/v1.0.7/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 0,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 18,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "totpmfa",
@@ -1478,7 +1866,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/oie-totp-plugin/releases/tag/v0.1.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-totp-plugin/v0.1.0/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 1,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 21,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     },
     {
       "id": "websupport",
@@ -1535,7 +1937,21 @@
           "releaseNotesUrl": "https://github.com/gibson9583/oie-web-support-plugin/releases/tag/v0.1.0",
           "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-web-support-plugin/v0.1.0/docs/store.md"
         }
-      ]
+      ],
+      "statistics": {
+        "stars": {
+          "status": "available",
+          "count": 6,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        },
+        "downloads": {
+          "status": "available",
+          "count": 322,
+          "checkedAt": "2026-09-22T19:27:23.586Z",
+          "stale": false
+        }
+      }
     }
   ],
   "blocklist": []

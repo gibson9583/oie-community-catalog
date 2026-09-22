@@ -1,0 +1,520 @@
+{
+  "example-get-num-pages-from-embedded-pdf": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Get%20Num%20Pages%20From%20Embedded%20PDF/Example%20-%20Get%20Num%20Pages%20From%20Embedded%20PDF.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "example-validate-xsd-source-filter": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Channels/Validate%20XSD%20Source%20Filter/Example%20-%20Validate%20XSD.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ctl-route-with-sources": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Route%20with%20Sources/Route%20With%20Sources%20-%20Code%20Template%20Library.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-convert-date-from-multiple-formats": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20Date%20From%20Multiple%20Formats/Convert%20Date%20From%20Multiple%20Formats.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-convert-xml-to-hl7": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Convert%20XML%20to%20HL7/Convert%20XML%20to%20HL7.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-create-and-insert-segment-templates": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Create%20and%20Insert%20Segment%20Templates/Create%20Segment%20Before%20Segment.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-encrypt-pdf": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Encrypt%20PDF/Encrypt%20PDF.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-execute-runtime-command": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Execute%20Runtime%20Command/Execute%20Runtime%20Command.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-extract-text-from-pdf": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Extract%20Text%20From%20PDF/Extract%20Text%20From%20PDF.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-fix-hl7-node-order": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Fix%20HL7%20Node%20Order/Fix%20Node%20Order%20in%20HL7%20v2.x%20Message.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-get-num-pages-in-pdf": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Num%20Pages%20In%20PDF/Get%20Num%20Pages%20In%20PDF.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-get-segments-after-a-particular-segment": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Get%20Segments%20After%20a%20Particular%20Segment/Get%20Segments%20After%20a%20Particular%20Segment.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-join-hl7-subcomponents": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Join%20HL7%20Subcomponents/Join%20HL7%20Subcomponents%20%28code%20template%29.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-overwrite-logger-categories": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Overwrite%20Logger%20Categories/Overwrite%20Logger%20Categories.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-rename-hl7-field": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Rename%20HL7%20Field/Rename%20HL7%20Field.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-replace-in-all-descendant-xml-nodes": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Replace%20in%20All%20Descendant%20XML%20Nodes/Replace%20in%20All%20Descendant%20XML%20Nodes.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-strip-empty-nodes-from-xml": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Strip%20Empty%20Nodes%20from%20XML/Strip%20Empty%20Nodes%20from%20XML.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-thread-safe-get-or-create-from-globalmap": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Thread-safe%20get%20or%20create%20from%20globalMap/Thread-safe%20get%20or%20create%20from%20globalMap.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "ct-unescape-xdd-hl7-sequences": {
+    "identity": "[\"https://github.com/gibson9583/connect-examples\",[\"https://raw.githubusercontent.com/gibson9583/connect-examples/master/Code%20Templates/Unescape%20Xdd%20HL7%20Sequences/Unescape%20Xdd%20HL7%20Sequences.xml\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "mmc-fetch": {
+    "identity": "[\"https://github.com/gibson9583/mmc\",[\"https://github.com/gibson9583/mmc/releases/download/v1.0.0/fetch-1.0.0.js\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 0,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "unavailable"
+      }
+    }
+  },
+  "email-reader": {
+    "identity": "[\"https://github.com/matthydehoog/email-connector-Eclipse-OIE\",[\"https://github.com/matthydehoog/email-connector-Eclipse-OIE/releases/download/v3.0.1/email-reader-connector-3.0.1.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 2,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 4,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "smtp-receiver": {
+    "identity": "[\"https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE\",[\"https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE/releases/download/v2.0.1/smtp-receiver-connector-2.0.1.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 3,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "sqs-connector": {
+    "identity": "[\"https://github.com/gibson9583/sqs-source-connector\",[\"https://github.com/gibson9583/sqs-source-connector/releases/download/v0.5.0/sqs-connector-0.5.0.zip\",\"https://github.com/gibson9583/sqs-source-connector/releases/download/v0.5.1/sqs-connector-0.5.1.zip\",\"https://github.com/gibson9583/sqs-source-connector/releases/download/v0.5.2/sqs-connector-0.5.2.zip\",\"https://github.com/gibson9583/sqs-source-connector/releases/download/v1.0.0/sqs-connector-1.0.0.zip\",\"https://github.com/gibson9583/sqs-source-connector/releases/download/v1.0.1/sqs-connector-1.0.1.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 2,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 48,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "datatype-edifact": {
+    "identity": "[\"https://github.com/matthydehoog/edifact-datatype-Eclipse-OIE\",[\"https://github.com/matthydehoog/edifact-datatype-Eclipse-OIE/releases/download/v1.0.2/datatype-edifact-1.0.2.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 0,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 2,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "communitystore": {
+    "identity": "[\"https://github.com/gibson9583/oie-community-store\",[\"https://github.com/gibson9583/oie-community-store/releases/download/v0.5.0/communitystore-0.5.0.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.5.1/communitystore-0.5.1.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.5.2/communitystore-0.5.2.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.5.3/communitystore-0.5.3.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.6.0/communitystore-0.6.0.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.7.1/communitystore-0.7.1.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.7.2/communitystore-0.7.2.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.7.4/communitystore-0.7.4.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.7.5/communitystore-0.7.5.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.7.6/communitystore-0.7.6.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.7.9/communitystore-0.7.9.zip\",\"https://github.com/gibson9583/oie-community-store/releases/download/v0.8.0/communitystore-0.8.0.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 6,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 71,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "oidcauth": {
+    "identity": "[\"https://github.com/gibson9583/oie-oidc-auth\",[\"https://github.com/gibson9583/oie-oidc-auth/releases/download/v1.0.2/oidcauth-1.0.2.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 42,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "oie-source-code-search": {
+    "identity": "[\"https://github.com/gibson9583/oie-source-code-search\",[\"https://github.com/gibson9583/oie-source-code-search/releases/download/v1.2.0/oie-source-code-search-1.2.0.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 0,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 15,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "rbac": {
+    "identity": "[\"https://github.com/diridium-com/role-based-access-control\",[\"https://github.com/diridium-com/role-based-access-control/releases/download/v1.1.2/rbac-1.1.2.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 3,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 122,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "sentinel": {
+    "identity": "[\"https://github.com/gibson9583/oie-sentinel\",[\"https://github.com/gibson9583/oie-sentinel/releases/download/v1.0.0/sentinel-1.0.0.zip\",\"https://github.com/gibson9583/oie-sentinel/releases/download/v1.0.1/sentinel-1.0.1.zip\",\"https://github.com/gibson9583/oie-sentinel/releases/download/v1.1.0/sentinel-1.1.0.zip\",\"https://github.com/gibson9583/oie-sentinel/releases/download/v1.1.1/sentinel-1.1.1.zip\",\"https://github.com/gibson9583/oie-sentinel/releases/download/v1.1.2/sentinel-1.1.2.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 3,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 163,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "simple-channel-history": {
+    "identity": "[\"https://github.com/gibson9583/simple-channel-history\",[\"https://github.com/gibson9583/simple-channel-history/releases/download/v2.7.1/simple-channel-history-2.7.1.zip\",\"https://github.com/gibson9583/simple-channel-history/releases/download/v2.7.2/simple-channel-history-2.7.2.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 0,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 17,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "thread-viewer": {
+    "identity": "[\"https://github.com/gibson9583/engine-thread-viewer\",[\"https://github.com/gibson9583/engine-thread-viewer/releases/download/v1.0.1/thread-viewer-1.0.1.zip\",\"https://github.com/gibson9583/engine-thread-viewer/releases/download/v1.0.2/thread-viewer-1.0.2.zip\",\"https://github.com/gibson9583/engine-thread-viewer/releases/download/v1.0.3/thread-viewer-1.0.3.zip\",\"https://github.com/gibson9583/engine-thread-viewer/releases/download/v1.0.6/thread-viewer-1.0.6.zip\",\"https://github.com/gibson9583/engine-thread-viewer/releases/download/v1.0.7/thread-viewer-1.0.7.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 134,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "tls-manager": {
+    "identity": "[\"https://github.com/gibson9583/tls-manager-plugin\",[\"https://github.com/gibson9583/tls-manager-plugin/releases/download/v1.0.7/tls-manager-1.0.7.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 0,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 18,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "totpmfa": {
+    "identity": "[\"https://github.com/gibson9583/oie-totp-plugin\",[\"https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.1.0/totpmfa-0.1.0.zip\",\"https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.2.0/totpmfa-0.2.0.zip\",\"https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.3.0/totpmfa-0.3.0.zip\",\"https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.3.1/totpmfa-0.3.1.zip\",\"https://github.com/gibson9583/oie-totp-plugin/releases/download/v0.3.2/totpmfa-0.3.2.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 1,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 21,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  },
+  "websupport": {
+    "identity": "[\"https://github.com/gibson9583/oie-web-support-plugin\",[\"https://github.com/gibson9583/oie-web-support-plugin/releases/download/v0.1.0/websupport-0.1.0.zip\",\"https://github.com/gibson9583/oie-web-support-plugin/releases/download/v1.0.0/websupport-1.0.0.zip\",\"https://github.com/gibson9583/oie-web-support-plugin/releases/download/v1.0.4/websupport-1.0.4.zip\"]]",
+    "metrics": {
+      "stars": {
+        "status": "available",
+        "count": 6,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      },
+      "downloads": {
+        "status": "available",
+        "count": 322,
+        "checkedAt": "2026-09-22T19:27:23.586Z",
+        "stale": false
+      }
+    }
+  }
+}
