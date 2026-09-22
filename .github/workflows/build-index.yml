@@ -1,7 +1,4 @@
-# Rebuilds index.json whenever manifests change on main and commits the result, so
-# the raw URL the Community Store polls always serves the current compiled catalog.
-
-name: Build index
+name: Build catalog and statistics
 
 on:
   push:
@@ -9,34 +6,52 @@ on:
     paths:
       - 'manifests/**'
       - 'blocklist.json'
-      - 'scripts/build-index.mjs'
+      - 'scripts/**'
+      - '.github/workflows/build-index.yml'
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: catalog-publisher
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: Rebuild index.json
-        run: node scripts/build-index.mjs
-
-      - name: Commit if changed
+      - name: Test statistics collection
+        run: node --test scripts/statistics.test.mjs
+      - name: Refresh and publish catalog
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          if git diff --quiet index.json; then
-            echo "index.json unchanged."
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add index.json
-            git commit -m "chore: rebuild index.json"
-            # Two merges landing close together can race this push; rebase and retry once.
-            git push || (git pull --rebase && node scripts/build-index.mjs && git add index.json && git commit --amend --no-edit && git push)
-          fi
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            # This is an isolated CI checkout; rebuild against the latest manifests.
+            git reset --hard origin/main
+            node scripts/build-index.mjs
+            node scripts/statistics.mjs
+            node scripts/build-index.mjs
+            git add index.json statistics.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "chore: refresh catalog and community statistics"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          echo "Catalog changed concurrently; publication failed after three attempts."
+          exit 1

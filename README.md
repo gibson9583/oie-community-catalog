@@ -169,3 +169,13 @@ mirrored to S3, GitHub Pages, or an internal web server without changing the for
 
 MPL-2.0, matching the engine and the store. Catalog metadata is factual package
 information; artifacts remain under their publishers' licenses.
+
+## Hourly community statistics
+
+The Build catalog and statistics workflow runs at minute 17 of each hour, on manifest changes, and manually. GitHub scheduling is best effort. It uses the built-in GITHUB_TOKEN; no additional secret is needed. The workflow must be on the default `main` branch and Actions must be allowed to push generated files.
+
+`scripts/statistics.mjs` collects repository stars and matching installer ZIP download totals across retained releases (including prereleases, excluding drafts). It follows pagination, deduplicates asset IDs, reuses API responses per repository, and excludes unrelated assets and checksums. Filename families are derived from all catalog version manifests and matched against release tags. Deleted releases, unknown historical naming conventions, and external-host downloads cannot be counted. Stars are shared by packages from the same repository; raw content packages may have stars but no downloads.
+
+Generated `statistics.json` records each metric's last successful count and UTC timestamp. Failures preserve previous counts as stale; first-time failures show unavailable. Statistics are bound to package repository and installer URLs to avoid carrying metrics across reassigned packages. The index builder embeds those metrics in optional `statistics.downloads` and `statistics.stars` fields. Existing clients ignore them. A single publisher concurrency group and rebuild-on-push-conflict prevent scheduled jobs from overwriting newer manifests.
+
+Run `node --test scripts/statistics.test.mjs` and `node scripts/build-index.mjs --lint` locally. To refresh: build the index, run `node scripts/statistics.mjs`, then build the index again. Only generated index/statistics files are committed by the workflow.

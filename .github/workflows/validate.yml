@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Test statistics
+        run: node --test scripts/statistics.test.mjs
+
       - name: Validate manifests
         run: node scripts/build-index.mjs --lint
 

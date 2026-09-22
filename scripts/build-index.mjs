@@ -25,6 +25,7 @@ import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from '
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { publishedStatistics } from './statistics.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TYPES = ['plugin', 'connector', 'datatype', 'channel', 'code-template', 'code-template-library'];
@@ -184,6 +185,9 @@ const lint = args.includes('--lint');
 const verifyIdx = args.indexOf('--verify');
 
 const packages = loadPackages();
+const statsPath = join(ROOT, 'statistics.json');
+const statistics = existsSync(statsPath) ? readJson(statsPath) ?? {} : {};
+for (const pkg of packages) pkg.statistics = publishedStatistics(pkg, statistics[pkg.id]);
 const index = buildIndex(packages);
 
 if (verifyIdx >= 0) {
