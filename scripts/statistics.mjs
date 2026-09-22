@@ -21,7 +21,16 @@ function matcher(pkg) {
             families.push([p[6].slice(0,at),p[6].slice(at+v.version.length)]);
         } catch { /* Unsupported URL. */ }
     }
-    return families.length ? (name,tag)=>families.some(([a,b])=>name===a+tag.replace(/^[vV]/,'')+b) : null;
+    return families.length ? (name,tag)=>families.some(([a,b])=>{
+        const stem=a+tag.replace(/^[vV]/,'');
+        if(name===stem+b)return true;
+        // Count explicitly named OIE compatibility installers, not arbitrary
+        // suffixes such as -sources, -javadoc, or another package's archives.
+        const compatibility=/^-oie-?[0-9]+(?:\.[0-9]+){1,3}\.zip$/i;
+        if(b!=='.zip' && !compatibility.test(b))return false;
+        return typeof name==='string' && name.startsWith(stem)
+            && (name.slice(stem.length)==='.zip' || compatibility.test(name.slice(stem.length)));
+    }) : null;
 }
 export async function refreshStatistics(packages, previous={}, api, now=new Date().toISOString()) {
     const cache=new Map();

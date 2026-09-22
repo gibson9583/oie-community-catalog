@@ -33,3 +33,18 @@ test('large embedded asset lists paginate assets, exclude sources and deduplicat
  const r=await refreshStatistics([pkg],{},async p=>p==='/repos/a/b'?{stargazers_count:1}:p.includes('/assets?')?(p.endsWith('page=1')?assets:[asset(2,'demo-2.0.0-sources.zip',999)]):[release(1,'v2.0.0',assets)]);
  assert.equal(r.demo.metrics.downloads.count,2);
 });
+
+test('counts compatibility installers in both OIE naming forms, excluding non-installers',async()=>{
+ const assets=[asset(1,'demo-2.0.0.zip',10),asset(2,'demo-2.0.0-oie4.5.2.zip',3),asset(3,'demo-2.0.0-oie-4.5.2.zip',4),
+  asset(4,'demo-2.0.0-oie-4.5.2.zip.sha256',100),asset(5,'demo-2.0.0-sources.zip',100),asset(6,'other-2.0.0-oie4.5.2.zip',100),
+  asset(7,'demo-2.0.0-oie4.5.2-sources.zip',100),asset(8,'demo-2.0.00-oie4.5.2.zip',100),asset(9,'SHA256SUMS',100)];
+ const r=await refreshStatistics([pkg],{},async p=>p==='/repos/a/b'?{stargazers_count:1}:[release(1,'v2.0.0',assets)]);
+ assert.equal(r.demo.metrics.downloads.count,17);
+});
+test('compatibility manifest recognizes standard and compatibility assets without double counting',async()=>{
+ const compatible={...pkg,versions:[...pkg.versions,{version:'2.0.0',installerUrl:'https://github.com/a/b/releases/download/v2.0.0/demo-2.0.0-oie-4.5.2.zip'}]};
+ for(const versions of [compatible.versions,compatible.versions.slice(1)]){
+  const r=await refreshStatistics([{...pkg,versions}],{},async p=>p==='/repos/a/b'?{stargazers_count:1}:[release(1,'v2.0.0',[asset(1,'demo-2.0.0.zip',2),asset(2,'demo-2.0.0-oie-4.5.2.zip',3)])]);
+  assert.equal(r.demo.metrics.downloads.count,5);
+ }
+});
