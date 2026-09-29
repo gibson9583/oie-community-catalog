@@ -1,0 +1,25 @@
+{
+    "id": "datatype-fhir",
+    "name": "FHIR Data Type",
+    "description": "HL7 FHIR data type: FHIR JSON and XML in, FHIR XML in the transformer, JSON or XML out, with validation against the FHIR R4 specification and your own profiles and packages (e.g. Nictiz zib2020), powered by HAPI FHIR. Optionally checks codes on a terminology server and returns an OperationOutcome to the sender.",
+    "type": "datatype",
+    "publisher": "Matthy.J. de Hoog",
+    "repository": "https://github.com/matthydehoog/fhir-datatype-Eclipse-OIE",
+    "homepage": "https://github.com/matthydehoog/fhir-datatype-Eclipse-OIE",
+    "documentation": "https://github.com/matthydehoog/fhir-datatype-Eclipse-OIE#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Matthy.J. de Hoog"
+    ],
+    "keywords": [
+        "fhir",
+        "hl7",
+        "r4",
+        "validation",
+        "profiles",
+        "nictiz",
+        "data type",
+        "healthcare"
+    ],
+    "deprecated": false
+}
