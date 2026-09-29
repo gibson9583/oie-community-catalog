@@ -1,0 +1,15 @@
+{
+    "version": "1.0.4",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/matthydehoog/edifact-datatype-Eclipse-OIE/releases/download/v1.0.4/datatype-edifact-1.0.4.zip",
+    "sha256": "117b3996efd626833843b7ca3ab14d4810f4c1efdc4b77b57c032917875ffeb0",
+    "restartRequired": true,
+    "publishedAt": "2026-09-27T13:37:26Z",
+    "releaseNotesUrl": "https://github.com/matthydehoog/edifact-datatype-Eclipse-OIE/releases/tag/v1.0.4",
+    "docsUrl": "https://raw.githubusercontent.com/matthydehoog/edifact-datatype-Eclipse-OIE/v1.0.4/README.md",
+    "ui": [
+        "web",
+        "swing"
+    ]
+}
