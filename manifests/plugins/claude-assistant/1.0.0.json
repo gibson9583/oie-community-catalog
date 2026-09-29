@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/matthydehoog/Claude-plugin-Eclipse-OIE/releases/download/v1.0.0/claude-assistant-1.0.0.zip",
+    "sha256": "5fe23952d02d2fcb853c29435993945d8895f0d1b215e8d392af69ebc086f1cb",
+    "restartRequired": true,
+    "publishedAt": "2026-09-29T11:36:57Z",
+    "releaseNotesUrl": "https://github.com/matthydehoog/Claude-plugin-Eclipse-OIE/releases/tag/v1.0.0",
+    "docsUrl": "https://raw.githubusercontent.com/matthydehoog/Claude-plugin-Eclipse-OIE/v1.0.0/README.md",
+    "ui": [
+        "web",
+        "swing"
+    ]
+}
