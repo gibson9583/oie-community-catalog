@@ -1,0 +1,15 @@
+{
+    "version": "3.1.0",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/matthydehoog/email-connector-Eclipse-OIE/releases/download/v3.1.0/email-reader-connector-3.1.0.zip",
+    "sha256": "20cfbfc42b095365954ca9b056de6399e169c55dc05357737bcac1f9736c232d",
+    "restartRequired": true,
+    "publishedAt": "2026-10-05T12:10:14Z",
+    "releaseNotesUrl": "https://github.com/matthydehoog/email-connector-Eclipse-OIE/releases/tag/v3.1.0",
+    "docsUrl": "https://raw.githubusercontent.com/matthydehoog/email-connector-Eclipse-OIE/v3.1.0/README.md"
+}
