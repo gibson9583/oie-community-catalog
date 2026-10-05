@@ -1,0 +1,15 @@
+{
+    "version": "1.0.5",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/matthydehoog/gdt-datatype-Eclipse-OIE/releases/download/v1.0.5/datatype-gdt-1.0.5.zip",
+    "sha256": "c4d005d3d4c622705244b611109bde68dc13d56c79fe3fc4307a498a27babb18",
+    "restartRequired": true,
+    "publishedAt": "2026-09-27T09:20:54Z",
+    "releaseNotesUrl": "https://github.com/matthydehoog/gdt-datatype-Eclipse-OIE/releases/tag/v1.0.5",
+    "docsUrl": "https://raw.githubusercontent.com/matthydehoog/gdt-datatype-Eclipse-OIE/v1.0.5/README.md",
+    "ui": [
+        "web",
+        "swing"
+    ]
+}
