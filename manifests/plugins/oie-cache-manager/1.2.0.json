@@ -1,0 +1,15 @@
+{
+    "version": "1.2.0",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/diridium-com/oie-cache-manager/releases/download/v1.2.0/oie-cache-manager-1.2.0.zip",
+    "sha256": "16c51837d9822e00485a3f388f197b13277fef5ff12520692d558c06420c03d8",
+    "restartRequired": true,
+    "publishedAt": "2026-08-18T20:11:39Z",
+    "releaseNotesUrl": "https://github.com/diridium-com/oie-cache-manager/releases/tag/v1.2.0",
+    "docsUrl": "https://raw.githubusercontent.com/diridium-com/oie-cache-manager/v1.2.0/docs/store.md"
+}
