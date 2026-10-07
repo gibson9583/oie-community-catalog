@@ -1,0 +1,15 @@
+{
+    "version": "1.1.0",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/diridium-com/oie-ssh-tunnel-manager/releases/download/v1.1.0/oie-ssh-tunnel-manager-1.1.0.zip",
+    "sha256": "4f1596c25e5f0a676c3a24fb4a536754fa74b60a396cc12b13a1e9d7e7b7b353",
+    "restartRequired": true,
+    "publishedAt": "2026-08-18T23:13:03Z",
+    "releaseNotesUrl": "https://github.com/diridium-com/oie-ssh-tunnel-manager/releases/tag/v1.1.0",
+    "docsUrl": "https://raw.githubusercontent.com/diridium-com/oie-ssh-tunnel-manager/v1.1.0/docs/store.md"
+}
