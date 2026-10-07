@@ -1,0 +1,15 @@
+{
+    "version": "1.4.1",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/diridium-com/oie-source-code-search/releases/download/v1.4.1/oie-source-code-search-1.4.1.zip",
+    "sha256": "b857e6a9843f1e1e81669c4980fba999b5f63500e9931a26dab7d474881d6ed6",
+    "restartRequired": true,
+    "publishedAt": "2026-10-07T00:47:22Z",
+    "releaseNotesUrl": "https://github.com/diridium-com/oie-source-code-search/releases/tag/v1.4.1",
+    "docsUrl": "https://raw.githubusercontent.com/diridium-com/oie-source-code-search/v1.4.1/docs/store.md"
+}
