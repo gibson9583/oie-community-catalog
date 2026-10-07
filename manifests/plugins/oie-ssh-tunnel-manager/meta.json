@@ -1,0 +1,22 @@
+{
+    "id": "oie-ssh-tunnel-manager",
+    "name": "SSH Tunnel Manager",
+    "description": "Managed SSH tunnels for channel connectivity: define tunnels with local and remote port forwards, password or key auth, and host-key pinning; the engine keeps them connected with automatic retry; watch live status, start, stop, and diagnose from either administrator.",
+    "type": "plugin",
+    "publisher": "Diridium Technologies Inc.",
+    "repository": "https://github.com/diridium-com/oie-ssh-tunnel-manager",
+    "homepage": "https://github.com/diridium-com/oie-ssh-tunnel-manager",
+    "documentation": "https://github.com/diridium-com/oie-ssh-tunnel-manager#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Diridium Technologies Inc."
+    ],
+    "keywords": [
+        "ssh",
+        "tunnel",
+        "port-forwarding",
+        "connectivity",
+        "security"
+    ],
+    "deprecated": false
+}
