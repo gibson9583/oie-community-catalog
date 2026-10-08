@@ -1,0 +1,22 @@
+{
+    "id": "oie-log-viewer",
+    "name": "OIE Log Viewer",
+    "description": "View, page through, search and download the engine's mirth.log and its rotated archives from the Administrator, without OS access to the engine host. Works in both the Swing and web administrators.",
+    "type": "plugin",
+    "publisher": "Diridium Technologies Inc.",
+    "repository": "https://github.com/diridium-com/oie-log-viewer",
+    "homepage": "https://github.com/diridium-com/oie-log-viewer",
+    "documentation": "https://github.com/diridium-com/oie-log-viewer#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Diridium Technologies Inc."
+    ],
+    "keywords": [
+        "logs",
+        "mirth.log",
+        "server-log",
+        "troubleshooting",
+        "administration"
+    ],
+    "deprecated": false
+}
