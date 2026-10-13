@@ -1,0 +1,23 @@
+{
+    "id": "oie-debugger",
+    "name": "JavaScript Debugger",
+    "description": "Pause channel JavaScript at breakpoints, step through execution, and inspect variables, maps, and expressions in the OIE Web Administrator.",
+    "type": "plugin",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/oie-debugger",
+    "homepage": "https://github.com/gibson9583/oie-debugger/wiki",
+    "documentation": "https://github.com/gibson9583/oie-debugger/wiki",
+    "license": "MPL-2.0",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "javascript",
+        "debugger",
+        "breakpoints",
+        "rhino",
+        "web",
+        "administrator"
+    ],
+    "deprecated": false
+}
