@@ -1,0 +1,14 @@
+{
+    "version": "1.0.1",
+    "ui": [
+        "web"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": "4.6.0",
+    "installerUrl": "https://github.com/gibson9583/oie-debugger/releases/download/v1.0.1/oie-debugger-1.0.1.zip",
+    "sha256": "7391d1bbd67eee3b7320eadaa13dd83a15c91286fcab98dd7f23ef12e49161aa",
+    "restartRequired": true,
+    "publishedAt": "2026-10-14T10:33:36Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-debugger/releases/tag/v1.0.1",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-debugger/v1.0.1/docs/store.md"
+}
