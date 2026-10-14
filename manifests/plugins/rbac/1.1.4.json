@@ -1,0 +1,15 @@
+{
+    "version": "1.1.4",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/diridium-com/role-based-access-control/releases/download/v1.1.4/rbac-1.1.4.zip",
+    "sha256": "7e3ce2a9c55c399b4f7db04e73a4b5d4d8dab8f9f9522d3d44c2ae0ed1d7749d",
+    "restartRequired": true,
+    "publishedAt": "2026-10-14T22:54:28Z",
+    "releaseNotesUrl": "https://github.com/diridium-com/role-based-access-control/releases/tag/v1.1.4",
+    "docsUrl": "https://raw.githubusercontent.com/diridium-com/role-based-access-control/v1.1.4/docs/store.md"
+}
