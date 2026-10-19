@@ -1,0 +1,15 @@
+{
+    "version": "2.9.0",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.7.0",
+    "maxEngineVersion": "4.7.0",
+    "installerUrl": "https://github.com/diridium-com/simple-channel-history/releases/download/v2.9.0/simple-channel-history-2.9.0.zip",
+    "sha256": "bbd66bba57bc97e416c13b5aa7ad775cfc0c3f8078918b8c88190efe07680c03",
+    "restartRequired": true,
+    "publishedAt": "2026-10-18T16:13:59Z",
+    "releaseNotesUrl": "https://github.com/diridium-com/simple-channel-history/releases/tag/v2.9.0",
+    "docsUrl": "https://raw.githubusercontent.com/diridium-com/simple-channel-history/v2.9.0/docs/store.md"
+}
