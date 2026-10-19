@@ -1,0 +1,15 @@
+{
+    "version": "1.1.0",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.7.0",
+    "maxEngineVersion": "4.7.0",
+    "installerUrl": "https://github.com/diridium-com/oie-log-viewer/releases/download/v1.1.0/oie-log-viewer-1.1.0.zip",
+    "sha256": "c0c1579f1651dfb5a65d2763b297685383c96894ba708a0e08acd058aeef34ba",
+    "restartRequired": true,
+    "publishedAt": "2026-10-19T20:04:49Z",
+    "releaseNotesUrl": "https://github.com/diridium-com/oie-log-viewer/releases/tag/v1.1.0",
+    "docsUrl": "https://raw.githubusercontent.com/diridium-com/oie-log-viewer/v1.1.0/docs/store.md"
+}
