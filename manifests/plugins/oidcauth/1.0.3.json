@@ -1,0 +1,14 @@
+{
+    "version": "1.0.3",
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": "4.7.0",
+    "installerUrl": "https://github.com/gibson9583/oie-oidc-auth/releases/download/v1.0.3/oidcauth-1.0.3.zip",
+    "sha256": "92efb860967065f2b2d7ed89ccc014c9b9e4309d6d6e7e1d5f2369a295b0eb44",
+    "restartRequired": true,
+    "publishedAt": "2026-10-20T17:34:56Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-oidc-auth/releases/tag/v1.0.3",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-oidc-auth/v1.0.3/docs/store.md",
+    "ui": [
+        "web"
+    ]
+}
