@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "ui": [
+        "web"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": "4.7.0",
+    "installerUrl": "https://github.com/gibson9583/oie-python-toolkit/releases/download/v1.0.0/python-runtime-1.0.0.zip",
+    "sha256": "5ab1b5686dc33102c3ccb018f164ff3e0a905e27283626a065076ea6d841a7a5",
+    "restartRequired": true,
+    "publishedAt": "2026-10-21T20:30:12Z",
+    "releaseNotesUrl": "https://github.com/gibson9583/oie-python-toolkit/releases/tag/v1.0.0",
+    "docsUrl": "https://raw.githubusercontent.com/gibson9583/oie-python-toolkit/v1.0.0/docs/store.md"
+}
