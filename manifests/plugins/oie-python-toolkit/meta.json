@@ -1,0 +1,22 @@
+{
+    "id": "oie-python-toolkit",
+    "name": "Python Toolkit",
+    "description": "Python filters, transformer steps, reusable functions, Reader and Writer connectors, and managed script environments for Open Integration Engine.",
+    "type": "plugin",
+    "publisher": "Chris Gibson",
+    "repository": "https://github.com/gibson9583/oie-python-toolkit",
+    "homepage": "https://github.com/gibson9583/oie-python-toolkit",
+    "documentation": "https://github.com/gibson9583/oie-python-toolkit/wiki",
+    "license": "MPL-2.0",
+    "authors": [
+        "Chris Gibson"
+    ],
+    "keywords": [
+        "python",
+        "filters",
+        "transformers",
+        "connectors",
+        "environments"
+    ],
+    "deprecated": false
+}
