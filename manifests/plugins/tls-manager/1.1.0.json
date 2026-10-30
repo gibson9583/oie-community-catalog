@@ -7,5 +7,5 @@
     "restartRequired": true,
     "publishedAt": "2026-10-30T18:33:09Z",
     "releaseNotesUrl": "https://github.com/NovaMap-Health/tls-manager-plugin/releases/tag/1.1.0",
-    "docsUrl": "https://github.com/NovaMap-Health/tls-manager-plugin/blob/a2c5c2c48bbda319d163bd576795fc8a56e6f657/docs/store.md"
+    "docsUrl": "https://raw.githubusercontent.com/NovaMap-Health/tls-manager-plugin/a2c5c2c48bbda319d163bd576795fc8a56e6f657/docs/store.md"
 }
