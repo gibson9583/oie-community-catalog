@@ -1,0 +1,11 @@
+{
+    "version": "1.1.0",
+    "minEngineVersion": "4.5.2",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/NovaMap-Health/tls-manager-plugin/releases/download/1.1.0/tls-manager-1.1.0.zip",
+    "sha256": "f85472a068ec54016cb837969927c47264282eb0c71907df8263cd7181aae840",
+    "restartRequired": true,
+    "publishedAt": "2026-10-30T18:33:09Z",
+    "releaseNotesUrl": "https://github.com/NovaMap-Health/tls-manager-plugin/releases/tag/1.1.0",
+    "docsUrl": "https://github.com/NovaMap-Health/tls-manager-plugin/blob/a2c5c2c48bbda319d163bd576795fc8a56e6f657/docs/store.md"
+}
