@@ -1,0 +1,15 @@
+{
+    "version": "1.6.1",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/matthydehoog/fhir-datatype-Eclipse-OIE/releases/download/v1.6.1/datatype-fhir-1.6.1.zip",
+    "sha256": "82dcfb525912e160725736005266bf34c512698661577974cbe1f81ba7dd0c9e",
+    "restartRequired": true,
+    "publishedAt": "2026-11-11T17:05:15Z",
+    "releaseNotesUrl": "https://github.com/matthydehoog/fhir-datatype-Eclipse-OIE/releases/tag/v1.6.1",
+    "docsUrl": "https://raw.githubusercontent.com/matthydehoog/fhir-datatype-Eclipse-OIE/v1.6.1/README.md"
+}
