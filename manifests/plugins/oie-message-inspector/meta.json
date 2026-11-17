@@ -1,0 +1,24 @@
+{
+    "id": "oie-message-inspector",
+    "name": "Message Inspector",
+    "description": "Structured tree view with field-level descriptions, HL7 code table lookups and validation for HL7v2 messages. Paste a message or open it directly from the Message Browser. Access is controlled by its own RBAC permission.",
+    "type": "plugin",
+    "publisher": "Getinge IT Solutions GmbH",
+    "repository": "https://github.com/GetingeDHS/oie-message-inspector",
+    "homepage": "https://github.com/GetingeDHS/oie-message-inspector",
+    "documentation": "https://github.com/GetingeDHS/oie-message-inspector#readme",
+    "license": "MPL-2.0",
+    "authors": [
+        "Getinge IT Solutions GmbH"
+    ],
+    "keywords": [
+        "hl7",
+        "hl7v2",
+        "message",
+        "inspector",
+        "viewer",
+        "validation",
+        "healthcare"
+    ],
+    "deprecated": false
+}
