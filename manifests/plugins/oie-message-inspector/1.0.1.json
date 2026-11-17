@@ -1,0 +1,14 @@
+{
+    "version": "1.0.1",
+    "ui": [
+        "web"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": "4.7.0",
+    "installerUrl": "https://github.com/GetingeDHS/oie-message-inspector/releases/download/v1.0.1/oie-message-inspector-1.0.1.zip",
+    "sha256": "f3f059a6d14ff3b71558e1bf6f39e8a8390370c38284588dba7cdc54db5e604b",
+    "restartRequired": true,
+    "publishedAt": "2026-11-17T12:52:52Z",
+    "releaseNotesUrl": "https://github.com/GetingeDHS/oie-message-inspector/releases/tag/v1.0.1",
+    "docsUrl": "https://raw.githubusercontent.com/GetingeDHS/oie-message-inspector/v1.0.1/README.md"
+}
