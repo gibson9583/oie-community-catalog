@@ -1,0 +1,15 @@
+{
+    "version": "2.0.3",
+    "ui": [
+        "web",
+        "swing"
+    ],
+    "minEngineVersion": "4.6.0",
+    "maxEngineVersion": null,
+    "installerUrl": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE/releases/download/v2.0.3/smtp-receiver-connector-2.0.3.zip",
+    "sha256": "121928b27c8867b87d710b2030c800ebea4006d12f8f4a129b9c75c6b67030ce",
+    "restartRequired": true,
+    "publishedAt": "2026-11-20T21:39:03Z",
+    "releaseNotesUrl": "https://github.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE/releases/tag/v2.0.3",
+    "docsUrl": "https://raw.githubusercontent.com/matthydehoog/smtp-receiver-connector-Eclipse-OIE/v2.0.3/README.md"
+}
