@@ -1,7 +1,7 @@
 {
     "id": "claude-assistant",
-    "name": "Claude Assistant",
-    "description": "Chat with Claude inside the OIE Administrator and web administrator about channels, messages, errors and scripts. Patient data (HL7, FHIR, GDT, EDIFACT) is masked before it leaves the server, and actions such as deploying or changing scripts, filters and transformers only run after the user approves them. Needs your own Anthropic API key. Unofficial plugin, not affiliated with or endorsed by Anthropic.",
+    "name": "AI Assistant",
+    "description": "Chat with an AI model inside the OIE Administrator and web administrator about channels, messages, errors and scripts: Claude (Anthropic) or an OpenAI-compatible model such as OpenAI, Ollama or vLLM. Patient data (HL7, FHIR, GDT, EDIFACT) is masked before it leaves the server, and actions such as deploying or changing scripts, filters and transformers only run after the user approves them. Needs your own API key for Anthropic or OpenAI; a local model server may need none. Unofficial plugin, not affiliated with or endorsed by Anthropic or OpenAI.",
     "type": "plugin",
     "publisher": "Matthy.J. de Hoog",
     "repository": "https://github.com/matthydehoog/Claude-plugin-Eclipse-OIE",
@@ -16,6 +16,9 @@
         "ai",
         "assistant",
         "anthropic",
+        "openai",
+        "ollama",
+        "llm",
         "troubleshooting",
         "masking",
         "healthcare"
